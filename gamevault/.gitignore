@@ -71,3 +71,10 @@ logs/
 tmp/
 temp/
 C:/
+
+# Google Cloud credentials
+savestate-bc9a4-4fbe30558e32.json
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
