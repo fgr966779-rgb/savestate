@@ -44,11 +44,11 @@ jobs:
       run: |
         cd gamevault/android
         chmod +x gradlew
-        # Используем NDK 27 и ограничиваем потоки для стабильности
+        # Форсируем использование C++20 через параметры Gradle
         if [ "${{ github.event.inputs.build_type }}" == "release" ]; then
-          ./gradlew assembleRelease -PndkVersion=27.0.12077973 --no-daemon --max-workers 2
+          ./gradlew assembleRelease -PndkVersion=27.0.12077973 -Pandroid.externalNativeBuild.cmake.arguments="-DANDROID_CPP_STANDARD=20" --no-daemon --max-workers 2
         else
-          ./gradlew assembleDebug -PndkVersion=27.0.12077973 --no-daemon --max-workers 2
+          ./gradlew assembleDebug -PndkVersion=27.0.12077973 -Pandroid.externalNativeBuild.cmake.arguments="-DANDROID_CPP_STANDARD=20" --no-daemon --max-workers 2
         fi
       env:
         GRADLE_OPTS: -Dorg.gradle.jvmargs="-Xmx4g -XX:MaxMetaspaceSize=512m"
@@ -66,4 +66,3 @@ jobs:
           gamevault/android/app/build/outputs/apk/debug/*.apk
           gamevault/android/app/build/outputs/apk/release/*.apk
         retention-days: 7
-
