@@ -1,0 +1,84 @@
+# SaveState — Supabase Configuration
+# https://supabase.com/docs/guides/self-hosting/docker#api-settings
+
+[api]
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public"]
+max_rows = 1000
+
+[api.tls]
+enabled = false
+
+[auth]
+site_url = "http://localhost:3000"
+additional_redirect_urls = [
+  "http://localhost:3000/auth/callback",
+  "https://savestate.app/auth/callback",
+  "https://savestate.app/**",
+]
+jwt_expiry = 3600
+refresh_token_expiry = 43200
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = false
+secure_password_change = false
+minimum_password_length = 8
+password_requirements = { lowercase_letters = true, uppercase_letters = true, digits = true, symbols = false }
+
+[auth.sms]
+enable_signup = false
+double_confirm_changes = true
+max_frequency = "5m"
+
+[auth.external]
+apple = true
+google = true
+github = false
+
+[auth.rate_limit]
+enabled = true
+max_requests = 100
+time_window = "1m"
+
+[auth.sessions]
+timebox = "720h"
+single_per_user = false
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+port = 54323
+
+[storage]
+file_size_limit = "50MB"
+image_transformation = { enabled = true, quality = 80 }
+
+[functions]
+node_compat = false
+
+[functions.verify_jwt]
+verify_jwt = true
+
+[experimental]
+securerc_enabled = true
+
+[analytics]
+enabled = false
+port = 54327
+vector = "0.1.30"
+backend = "postgres"
+
+# ============================================================
+# SaveState Edge Function Environment Variables
+# (set via Supabase CLI: supabase secrets set KEY=VALUE)
+# ============================================================
+# AI_COACH_API_KEY = ""
+# AI_COACH_MODEL = ""
+# AI_COACH_BASE_URL = ""
+# FCM_PROJECT_ID = ""
+# GOOGLE_SERVICE_ACCOUNT_JSON = ""

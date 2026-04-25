@@ -1,0 +1,1742 @@
+{
+  "common": {
+    "next": "Далі",
+    "back": "Назад",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "confirm": "Підтвердити",
+    "delete": "Видалити",
+    "close": "Закрити",
+    "ok": "OK",
+    "retry": "Спробувати ще",
+    "skip": "Пропустити",
+    "continue": "Продовжити",
+    "done": "Готово",
+    "edit": "Редагувати",
+    "add": "Додати",
+    "remove": "Вилучити",
+    "search": "Пошук",
+    "filter": "Фільтр",
+    "sort": "Сортувати",
+    "loading": "Завантаження...",
+    "noData": "Немає даних",
+    "yes": "Так",
+    "no": "Ні",
+    "all": "Усі",
+    "none": "Жоден",
+    "required": "Обов'язкове поле",
+    "optional": "Необов'язково",
+    "submit": "Відправити",
+    "apply": "Застосувати",
+    "reset": "Скинути",
+    "refresh": "Оновити",
+    "share": "Поділитися",
+    "copy": "Копіювати",
+    "copied": "Скопійовано",
+    "select": "Обрати",
+    "selected": "Обрано",
+    "unselected": "Не обрано",
+    "or": "або",
+    "and": "та",
+    "of": "з",
+    "total": "Загалом",
+    "balance": "Баланс",
+    "amount": "Сума",
+    "date": "Дата",
+    "time": "Час",
+    "today": "Сьогодні",
+    "yesterday": "Вчора",
+    "tomorrow": "Завтра",
+    "thisWeek": "Цього тижня",
+    "thisMonth": "Цього місяця",
+    "thisYear": "Цього року",
+    "currency": "Гривня",
+    "currencyCode": "UAH",
+    "seeAll": "Переглянути все",
+    "showMore": "Показати більше",
+    "showLess": "Показати менше",
+    "pullToRefresh": "Потягніть вниз для оновлення",
+    "lastUpdated": "Останнє оновлення",
+    "version": "Версія",
+    "comingSoon": "Скоро буде!",
+    "loadMore": "Завантажити ще...",
+    "months": {
+      "1": "Січень", "2": "Лютий", "3": "Березень", "4": "Квітень",
+      "5": "Травень", "6": "Червень", "7": "Липень", "8": "Серпень",
+      "9": "Вересень", "10": "Жовтень", "11": "Листопад", "12": "Грудень"
+    },
+    "monthsGenitive": {
+      "1": "січня", "2": "лютого", "3": "березня", "4": "квітня",
+      "5": "травня", "6": "червня", "7": "липня", "8": "серпня",
+      "9": "вересня", "10": "жовтня", "11": "листопада", "12": "грудня"
+    },
+    "days": {
+      "0": "Пн", "1": "Вт", "2": "Ср", "3": "Чт",
+      "4": "Пт", "5": "Сб", "6": "Нд"
+    },
+    "daysFull": {
+      "0": "Неділя", "1": "Понеділок", "2": "Вівторок", "3": "Середа",
+      "4": "Четвер", "5": "П'ятниця", "6": "Субота"
+    }
+  },
+
+  "calendar": {
+    "activeDays": "Активних днів",
+    "avgPerDay": "Сер./день",
+    "bestDay": "Найкращий день",
+    "dayDetails": "Деталі дня",
+    "deposit": "Поповнення",
+    "withdrawal": "Зняття",
+    "category": "Категорія",
+    "xpEarned": "XP зароблено",
+    "note": "Нотатка",
+    "noActivity": "Немає",
+    "vsPreviousMonth": "vs {{month}}"
+  },
+
+  "auth": {
+    "splash": {
+      "title": "SaveState",
+      "subtitle": "Ваша гра заощадження",
+      "loading": "Завантаження..."
+    },
+    "welcome": {
+      "title": "Ласкаво просимо!",
+      "subtitle": "Перетворіть заощадження на пригоду",
+      "description": "SaveState допоможе вам досягти фінансових цілей через ігрову мотивацію",
+      "getStarted": "Почати",
+      "signIn": "Увійти",
+      "alreadyHaveAccount": "Вже маєте акаунт?",
+      "noAccount": "Немає акаунта?"
+    },
+    "goalSelection": {
+      "title": "Оберіть свою ціль",
+      "subtitle": "Що ви хочете досягти?",
+      "emergencyFund": "Фонд екстрених витрат",
+      "vacation": "Відпустка",
+      "bigPurchase": "Велика покупка",
+      "newCar": "Нове авто",
+      "education": "Освіта",
+      "home": "Житло",
+      "retirement": "Пенсія",
+      "customGoal": "Свої ціль",
+      "selectOne": "Оберіть принаймні одну ціль",
+      "setLater": "Встановити пізніше"
+    },
+    "targetAmount": {
+      "title": "Встановіть цільову суму",
+      "subtitle": "Скільки ви хочете зібрати?",
+      "placeholder": "Введіть суму",
+      "suggested": "Рекомендована сума",
+      "minimum": "Мінімальна сума: {amount}",
+      "maximum": "Максимальна сума: {amount}",
+      "currency": "₴",
+      "setGoal": "Встановити ціль"
+    },
+    "strategy": {
+      "title": "Оберіть стратегію",
+      "subtitle": "Як ви хочете досягти своєї цілі?",
+      "aggressive": "Агресивна",
+      "aggressiveDesc": "Більше заощаджень, швидший результат",
+      "moderate": "Помірна",
+      "moderateDesc": "Збалансований підхід",
+      "relaxed": "Розслаблена",
+      "relaxedDesc": "Малі кроки, стабільний прогрес",
+      "custom": "Власна стратегія",
+      "monthlyTarget": "Місячна ціль: {amount}",
+      "estimatedTime": "Орієнтовний час: {months} місяців"
+    },
+    "accountSetup": {
+      "title": "Налаштуйте свій акаунт",
+      "subtitle": "Останній крок!",
+      "name": "Ваше ім'я",
+      "namePlaceholder": "Введіть ім'я",
+      "email": "Електронна пошта",
+      "emailPlaceholder": "example@email.com",
+      "password": "Пароль",
+      "passwordPlaceholder": "Мінімум 8 символів",
+      "confirmPassword": "Підтвердіть пароль",
+      "terms": "Я погоджуюсь з умовами використання",
+      "privacy": "Політика конфіденційності",
+      "createAccount": "Створити акаунт",
+      "orContinueWith": "або продовжити через",
+      "google": "Google",
+      "apple": "Apple"
+    },
+    "login": {
+      "title": "Увійти",
+      "subtitle": "Ласкаво просимо назад!",
+      "forgotPassword": "Забули пароль?",
+      "resetPassword": "Скинути пароль",
+      "noAccount": "Немає акаунта? Зареєструватися"
+    },
+    "forgotPassword": {
+      "title": "Відновлення паролю",
+      "subtitle": "Введіть email для скидання паролю",
+      "sendLink": "Надіслати посилання",
+      "checkEmail": "Перевірте вашу пошту",
+      "backToLogin": "Повернутися до входу"
+    }
+  },
+
+  "home": {
+    "dashboard": {
+      "title": "Головна",
+      "greeting": "Привіт, {name}!",
+      "greetingMorning": "Доброго ранку, {name}!",
+      "greetingAfternoon": "Доброго дня, {name}!",
+      "greetingEvening": "Доброго вечора, {name}!",
+      "totalSaved": "Загалом збережено",
+      "thisMonth": "Цього місяця",
+      "monthlyGoal": "Місячна ціль",
+      "progress": "Прогрес",
+      "streak": "Серія днів",
+      "level": "Рівень",
+      "xp": "Досвід",
+      "quickActions": "Швидкі дії",
+      "recentActivity": "Остання активність",
+      "activeQuests": "Активні квести",
+      "nextMilestone": "Наступна віха",
+      "daysLeft": "днів залишилось"
+    },
+    "empty": {
+      "title": "Розпочніть свою подорож!",
+      "description": "Створіть перший скарбник та почніть заощаджувати",
+      "createFirstVault": "Створити скарбник",
+      "completeOnboarding": "Завершити налаштування",
+      "noVaults": "У вас ще немає скарбників",
+      "noQuests": "Немає активних квестів",
+      "noActivity": "Поки що немає активності"
+    },
+    "complete": {
+      "title": "Чудовий прогрес!",
+      "allGoalsReached": "Всі цілі досягнуті!",
+      "newChallenge": "Новий виклик",
+      "keepGoing": "Продовжуйте в тому ж дусі!",
+      "motivationMessage": "Ви на правильному шляху"
+    }
+  },
+
+  "vault": {
+    "main": {
+      "title": "Скарбник",
+      "totalBalance": "Загальний баланс",
+      "available": "Доступно",
+      "locked": "Заблоковано",
+      "emptyState": "Створіть свій перший скарбник",
+      "createVault": "Створити скарбник",
+      "vaultName": "Назва скарбника",
+      "vaultIcon": "Іконка скарбника",
+      "vaultColor": "Колір скарбника",
+      "yourVault": "Твій Скарб",
+      "completedGoals": "Досягнуті цілі",
+      "reserveFund": "Резервний фонд",
+      "configureReserve": "Налаштувати →",
+      "depositButton": "Поповнити",
+      "historyButton": "Історія"
+    },
+    "history": {
+      "title": "Історія",
+      "allTransactions": "Усі транзакції",
+      "deposits": "Внески",
+      "withdrawals": "Зняття",
+      "noHistory": "Історія порожня",
+      "dateRange": "Період",
+      "exportHistory": "Експорт історії",
+      "filterByVault": "Фільтр за скарбником",
+      "filterAll": "Всі",
+      "filterDeposits": "Поповнення",
+      "filterWithdrawals": "Зняття",
+      "filterBonuses": "Бонуси",
+      "deleteTitle": "Видалити транзакцію",
+      "deleteMessage": "Ця дія не може бути скасована.",
+      "noTransactions": "Немає транзакцій",
+      "noFilteredTransactions": "Немає транзакцій з обраним фільтром",
+      "noTransactionsHint": "Здійсни перше поповнення, щоб побачити транзакції тут",
+      "loadMore": "Завантажити ще...",
+      "otherCategory": "Інше"
+    },
+    "deposit": {
+      "title": "Внесок",
+      "subtitle": "Додай кошти на свою ціль",
+      "amount": "Сума внеску",
+      "selectVault": "Оберіть скарбник",
+      "depositTo": "Внести в",
+      "quickAmounts": "Швидкі суми",
+      "customAmount": "Власна сума",
+      "confirmDeposit": "Підтвердити внесок",
+      "depositSuccess": "Внесок успішний!",
+      "depositFailed": "Помилка внеску",
+      "category": "Категорія",
+      "note": "Примітка (необов'язково)",
+      "notePlaceholder": "Наприклад: Премія за грудень",
+      "allocation": "Розподіл між цілями",
+      "allocationLabel": "Розподіл",
+      "goalDefault": "Ціль",
+      "xpPreview": "+{{xp}} XP за цей депозит",
+      "putButton": "Покласти ₴{{amount}}",
+      "successMessage": "+{{amount}} ₴ внесено! +{{xp}} XP",
+      "errorMessage": "Помилка поповнення. Спробуй ще раз.",
+      "streakMessage": "Серія {{days}} дн.! 🔥"
+    },
+    "withdraw": {
+      "title": "Зняття",
+      "screenTitle": "Зняти кошти",
+      "warningText": "Зняття зменшить твій прогрес!",
+      "amount": "Сума зняття",
+      "selectVault": "Оберіть скарбник",
+      "withdrawFrom": "Зняти з",
+      "availableBalance": "Доступний баланс",
+      "activeGoal": "Активна ціль",
+      "insufficientFunds": "Недостатньо коштів на балансі",
+      "reasonLabel": "Причина зняття",
+      "reasonEmergency": "🔥 Невідкладне",
+      "reasonEmergencyDesc": "Термінова потреба",
+      "reasonPlanned": "📅 Заплановане",
+      "reasonPlannedDesc": "Планова витрата",
+      "reasonOther": "📝 Інше",
+      "reasonOtherDesc": "Інша причина",
+      "penaltyTitle": "Штрафи за зняття",
+      "penaltyDays": "+{{days}} дн. до цілі",
+      "penaltyXp": "-{{xp}} XP",
+      "confirmTitle": "Підтвердження зняття",
+      "confirmMessage": "Ти впевнений? Це зменшить твій прогрес!\n\nВтрата: -{{xp}} XP + {{days}} дн. до цілі",
+      "cancel": "Скасувати",
+      "confirmAction": "Зняти кошти",
+      "confirmWithdraw": "Підтвердити зняття",
+      "withdrawSuccess": "Зняття успішне!",
+      "withdrawFailed": "Помилка зняття",
+      "penaltyWarning": "Увага: раннє зняття може мати штраф",
+      "successMessage": "Знято {{amount}} ₴. Прогрес зменшено.",
+      "errorMessage": "Помилка зняття. Спробуй ще раз.",
+      "confirmHint": "Натисни ще раз для підтвердження",
+      "confirmButton": "Підтверди зняття",
+      "withdrawButton": "Зняти ₴{{amount}}",
+      "daysShort": "дн."
+    },
+    "recurring": {
+      "title": "Регулярні внески",
+      "frequency": "Частота",
+      "daily": "Щодня",
+      "weekly": "Щотижня",
+      "biweekly": "×2 на місяць",
+      "monthly": "Щомісяця",
+      "custom": "Власний графік",
+      "amount": "Сума",
+      "startDate": "Дата початку",
+      "endDate": "Дата завершення",
+      "noEndDate": "Без дати завершення",
+      "nextDeposit": "Наступний внесок",
+      "active": "Активний",
+      "paused": "Призупинено",
+      "cancelPlan": "Скасувати план",
+      "pausePlan": "Призупинити план",
+      "resumePlan": "Відновити план",
+      "automaticDeposit": "Автоматичне поповнення",
+      "automaticDepositDesc": "Налаштуй регулярні внески та досягай цілі швидше",
+      "dayOfWeek": "День тижня",
+      "calendarPreview": "Календар (30 днів)",
+      "forecast": "Прогноз",
+      "depositsPerMonth": "Поповнень на місяць:",
+      "monthlyTotal": "Сума за місяць:",
+      "years": "1+ роки",
+      "monthsShort": "{{count}} міс.",
+      "savePlan": "Зберегти план",
+      "planSaved": "План збережено! {{frequency}} — ₴{{amount}}",
+      "depositTime": "Час поповнення",
+      "changeTime": "Змінити →",
+      "perDeposit": "Сума за поповнення",
+      "selectTimeAlert": "Оберіть зручний час для автоматичного поповнення"
+    },
+    "import": {
+      "title": "Імпорт",
+      "importFunds": "Імпортувати кошти",
+      "selectSource": "Оберіть джерело",
+      "bankAccount": "Банківський рахунок",
+      "card": "Банківська картка",
+      "cash": "Готівка",
+      "otherVault": "Інший скарбник",
+      "amount": "Сума",
+      "note": "Примітка",
+      "importSuccess": "Імпорт успішний",
+      "importFailed": "Помилка імпорту",
+      "screenTitle": "Імпорт та синхронізація",
+      "screenSubtitle": "Підключи банк або імпортуй транзакції іншими способами",
+      "bankIntegration": "Інтеграція з банками",
+      "otherMethods": "Інші способи",
+      "monobankDesc": "Автоматичний імпорт транзакцій з Mono",
+      "privatbankDesc": "Синхронізація з Privat24",
+      "recommended": "Рекомендовано",
+      "receiptTitle": "Фото чека",
+      "receiptDesc": "Зроби фото чека — ми розпізнаємо суму автоматично",
+      "csvTitle": "CSV імпорт",
+      "csvDesc": "Імпорт транзакцій з CSV файлу (Excel, Google Sheets)",
+      "batchTitle": "Додати пакетом",
+      "batchDesc": "Вручну додай кілька транзакцій за раз",
+      "connectBank": "Підключення банку",
+      "connectQuestion": "Підключити {{bank}} для автоматичного імпорту транзакцій?",
+      "connected": "Підключено",
+      "connectBtn": "Підключити",
+      "disconnectBtn": "Відключити",
+      "bankConnected": "{{bank}} підключено!",
+      "bankDisconnected": "Банк відключено",
+      "receiptSource": "Обери джерело фото",
+      "camera": "Камера",
+      "gallery": "Галерея",
+      "receiptAnalyzing": "Чек отримано! Аналізуємо...",
+      "cameraError": "Помилка доступу до камери",
+      "csvSelected": "CSV файл обрано! Імпортуємо...",
+      "csvError": "Помилка читання файлу",
+      "batchAlert": "Пакетне введення",
+      "batchAlertMsg": "Введення кількох транзакцій вручну. Ця функція буде доступна в наступному оновленні.",
+      "securityTitle": "Безпека даних",
+      "securityDesc": "Усі дані зберігаються локально на твоєму пристрої. Ми не передаємо банківські дані третім сторонам."
+    },
+    "create": {
+      "title": "Новий скарбник",
+      "name": "Назва",
+      "namePlaceholder": "Назвіть ваш скарбник",
+      "goal": "Ціль",
+      "targetAmount": "Цільова сума",
+      "deadline": "Кінцевий термін",
+      "icon": "Іконка",
+      "color": "Колір",
+      "type": "Тип",
+      "typeStandard": "Стандартний",
+      "typeChallenge": "Виклик",
+      "typeShared": "Спільний",
+      "create": "Створити"
+    }
+  },
+
+  "quests": {
+    "hub": {
+      "title": "Квести",
+      "subtitle": "Виконуйте завдання та заробляйте нагороди",
+      "available": "Доступні",
+      "active": "Активні",
+      "completed": "Завершені",
+      "expired": "Закінчені",
+      "noQuests": "Немає квестів"
+    },
+    "daily": {
+      "title": "Щоденні квести",
+      "subtitle": "Нові квести щодня",
+      "resetsIn": "Оновлюється через",
+      "completed": "Виконано {count}/{total}",
+      "claimReward": "Отримати нагороду",
+      "rewardClaimed": "Нагороду отримано!",
+      "streakBonus": "Бонус серії: x{multiplier}"
+    },
+    "weekly": {
+      "title": "Тижневі квести",
+      "subtitle": "Великі завдання, більші нагороди",
+      "progress": "Прогрес: {current}/{total}",
+      "daysLeft": "{days} днів залишилось",
+      "weekNumber": "Тиждень {number}",
+      "claimAll": "Отримати всі нагороди"
+    },
+    "story": {
+      "title": "Сторі-квести",
+      "subtitle": "Проходьте сюжетну лінію",
+      "chapter": "Розділ {number}",
+      "currentChapter": "Поточний розділ",
+      "locked": "Заблоковано",
+      "unlockNext": "Розблокувати наступний",
+      "storyComplete": "Сторію завершено!",
+      "totalChapters": "Розділ {current} з {total}"
+    },
+    "achievements": {
+      "title": "Досягнення",
+      "subtitle": "Ваші трофеї та нагороди",
+      "total": "Всього: {count}",
+      "unlocked": "Розблоковано: {count}",
+      "locked": "Заблоковано: {count}",
+      "rarity": {
+        "common": "Звичайне",
+        "rare": "Рідкісне",
+        "epic": "Епічне",
+        "legendary": "Легендарне"
+      },
+      "newAchievement": "Нове досягнення!",
+      "achievementUnlocked": "Досягнення розблоковано!"
+    },
+    "levelUp": {
+      "title": "Підвищення рівня!",
+      "congratulations": "Вітаємо!",
+      "newLevel": "Ви досягли рівня {level}!",
+      "rewardsUnlocked": "Розблоковано нові можливості",
+      "xpToNext": "До наступного рівня: {xp} XP",
+      "currentLevel": "Поточний рівень",
+      "nextLevel": "Наступний рівень"
+    },
+    "streak": {
+      "title": "Серія",
+      "currentStreak": "Поточна серія",
+      "bestStreak": "Найкраща серія",
+      "days": "днів",
+      "keepStreak": "Не втрачайте серію!",
+      "streakBonus": "Бонус за серію: +{percent}%",
+      "streakLost": "Серію втрачено",
+      "streakRecovered": "Серію відновлено!"
+    },
+    "wheel": {
+      "title": "Колесо фортуни",
+      "subtitle": "Крутіть та вигравайте!",
+      "spin": "Крутити!",
+      "spinning": "Крутиться...",
+      "spinsLeft": "Обертів залишилось: {count}",
+      "nextFreeSpin": "Безкоштовне обертання через",
+      "prize": "Ваш приз: {prize}",
+      "jackpot": "ДЖЕКПОТ!",
+      "tryAgain": "Спробуйте ще раз"
+    },
+    "shop": {
+      "title": "Магазин",
+      "subtitle": "Обмінюйте монети на нагороди",
+      "coins": "Монети",
+      "yourBalance": "Ваш баланс",
+      "categories": "Категорії",
+      "powerups": "Підсилення",
+      "cosmetics": "Косметика",
+      "premium": "Преміум",
+      "buy": "Купити",
+      "soldOut": "Продано",
+      "notEnoughCoins": "Недостатньо монет",
+      "purchased": "Куплено!"
+    },
+    "leaderboard": {
+      "title": "Рейтинг",
+      "subtitle": "Порівняйте себе з іншими",
+      "you": "Ви",
+      "rank": "Рейтинг",
+      "name": "Ім'я",
+      "score": "Рахунок",
+      "level": "Рівень",
+      "weekly": "Тижневий",
+      "monthly": "Щомісячний",
+      "allTime": "За весь час",
+      "topSavers": "Топ заощадників",
+      "topStreaks": "Топ серій"
+    },
+    "challenges": {
+      "title": "Виклики",
+      "subtitle": "Прийміть виклик та переможте",
+      "accept": "Прийняти виклик",
+      "decline": "Відхилити",
+      "activeChallenges": "Активні виклики",
+      "challengeProgress": "Прогрес виклику",
+      "timeLeft": "Час залишилось",
+      "reward": "Нагорода",
+      "challengeComplete": "Виклик виконано!",
+      "challengeFailed": "Виклик провалено"
+    },
+    "xp": {
+      "earned": "+{amount} XP",
+      "bonus": "Бонус: +{amount} XP",
+      "totalXp": "Всього XP",
+      "levelProgress": "Прогрес рівня",
+      "xpBreakdown": "Деталізація XP"
+    }
+  },
+
+  "stats": {
+    "dashboard": {
+      "title": "Статистика",
+      "subtitle": "Ваші фінансові показники",
+      "overview": "Огляд",
+      "detailed": "Детально",
+      "period": "Період",
+      "compare": "Порівняння"
+    },
+    "charts": {
+      "title": "Графіки",
+      "incomeVsExpenses": "Дохід vs Витрати",
+      "savingsRate": "Рівень заощаджень",
+      "savingsTrend": "Тренд заощаджень",
+      "categoryBreakdown": "Розподіл за категоріями",
+      "monthlyComparison": "Місячне порівняння",
+      "weeklyTrend": "Щотижневий тренд",
+      "dailyActivity": "Щоденна активність",
+      "projection": "Прогноз",
+      "pieChart": "Кругова діаграма",
+      "barChart": "Стовпчикова діаграма",
+      "lineChart": "Лінійний графік"
+    },
+    "patterns": {
+      "title": "Патерни",
+      "subtitle": "Ваші фінансові звички",
+      "spendingHabits": "Витратні звички",
+      "savingPatterns": "Шаблони заощаджень",
+      "bestDay": "Найкращий день",
+      "worstDay": "Найгірший день",
+      "peakHours": "Пікові години",
+      "topCategories": "Топ категорії",
+      "insights": "Інсайти",
+      "tip": "Порада"
+    },
+    "forecast": {
+      "title": "Прогноз",
+      "subtitle": "Що чекає далі",
+      "projectedSavings": "Прогноз заощаджень",
+      "goalCompletion": "Завершення цілі",
+      "estimatedDate": "Орієнтовна дата",
+      "atCurrentRate": "При поточному темпі",
+      "withGoal": "З цільовим темпом",
+      "onTrack": "На шляху до цілі",
+      "behindSchedule": "Відстаєте від графіку",
+      "aheadOfSchedule": "Випереджаєте графік"
+    },
+    "report": {
+      "title": "Звіти",
+      "subtitle": "Детальні фінансові звіти",
+      "generate": "Згенерувати звіт",
+      "weeklyReport": "Тижневий звіт",
+      "monthlyReport": "Щомісячний звіт",
+      "yearlyReport": "Річний звіт",
+      "customReport": "Власний звіт",
+      "downloading": "Завантаження...",
+      "ready": "Звіт готовий"
+    },
+    "comparison": {
+      "title": "Порівняння",
+      "subtitle": "Порівняйте періоди",
+      "vsPreviousMonth": "vs попередній місяць",
+      "vsPreviousYear": "vs попередній рік",
+      "change": "Зміна",
+      "increase": "Збільшення",
+      "decrease": "Зменшення",
+      "noChange": "Без змін"
+    },
+    "calculator": {
+      "title": "Калькулятор",
+      "subtitle": "Розрахуйте свій шлях до цілі",
+      "targetAmount": "Цільова сума",
+      "monthlySaving": "Щомісячне заощадження",
+      "timeToGoal": "Час до цілі",
+      "interestRate": "Відсоткова ставка",
+      "compoundFrequency": "Частота капіталізації",
+      "calculate": "Розрахувати",
+      "result": "Результат",
+      "needToSave": "Потрібно заощаджувати",
+      "perMonth": "на місяць",
+      "perWeek": "на тиждень",
+      "perDay": "на день"
+    },
+    "export": {
+      "title": "Експорт",
+      "subtitle": "Завантажте свої дані",
+      "format": "Формат",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "json": "JSON",
+      "dateRange": "Період",
+      "exportData": "Експортувати дані",
+      "exporting": "Експорт...",
+      "exportSuccess": "Експорт успішний",
+      "exportFailed": "Помилка експорту",
+      "csvDesc": "Транзакції у таблиці",
+      "pdfDesc": "Звіт у PDF",
+      "jsonDesc": "Усі дані у JSON",
+      "quarter": "Квартал",
+      "summary": "Підсумок експорту",
+      "pdfComingSoon": "PDF експорт скоро буде доступний",
+      "transactionCount": "Транзакцій",
+      "categories": "Категорії",
+      "includeCategories": "Включити категорії",
+      "savings": "Заощадження",
+      "expenses": "Витрати",
+      "quests": "Квести",
+      "goals": "Цілі",
+      "achievements": "Досягнення",
+      "selected": "обрано"
+    },
+    "aiCoach": {
+      "title": "AI Тренер",
+      "weeklyReport": "Тижневий звіт",
+      "thinking": "AI думає...",
+      "whatWentWell": "Що зроблено добре",
+      "adviceTitle": "Поради AI Тренера",
+      "weeklyChallenge": "Виклик тижня",
+      "accept": "Прийняти",
+      "skip": "Пропустити",
+      "accepted": "Прийнято!",
+      "skipped": "Пропущено",
+      "newReport": "🔄 Новий звіт",
+      "streakWin": "Стрік {{count}} днів!",
+      "weeklySavingsWin": "+{{amount}} за тиждень — на {{percent}}% більше",
+      "questsWin": "{{completed}}/{{total}} квестів виконано",
+      "challengeTemplate": "Відклади {{amount}} до неділі → +{{xp}} XP бонус",
+      "noData": "Недостатньо даних для аналізу",
+      "errorFallback": "Поради тимчасово недоступні. Спробуй пізніше!"
+    }
+  },
+
+  "profile": {
+    "main": {
+      "title": "Профіль",
+      "editProfile": "Редагувати профіль",
+      "memberSince": "Учасник з",
+      "totalSaved": "Всього збережено",
+      "currentStreak": "Поточна серія",
+      "achievementsCount": "Досягнень",
+      "level": "Рівень",
+      "signIn": "Увійти",
+      "novice": "Новачок",
+      "levelBadge": "Рівень",
+      "xp": "XP",
+      "goalsStat": "Цілей",
+      "streak": "Серія",
+      "achievementsStat": "Досягнень",
+      "logout": "Вийти з акаунту"
+    },
+    "edit": {
+      "title": "Редагувати профіль",
+      "name": "Ім'я",
+      "email": "Email",
+      "phone": "Телефон",
+      "avatar": "Аватар",
+      "changeAvatar": "Змінити аватар",
+      "saveChanges": "Зберегти зміни",
+      "discardChanges": "Скасувати зміни",
+      "changePhoto": "Змінити фото",
+      "nickname": "Нікнейм",
+      "nicknamePlaceholder": "Ваш нікнейм",
+      "errorEmpty": "Ім'я не може бути порожнім",
+      "errorMin": "Ім'я має містити мінімум 2 символи",
+      "errorMax": "Ім'я не може бути довшим за 20 символів",
+      "accentColor": "Колір акценту",
+      "preview": "Попередній перегляд",
+      "defaultName": "Користувач"
+    },
+    "settings": {
+      "title": "Налаштування",
+      "general": "Загальні",
+      "language": "Мова",
+      "theme": "Тема",
+      "darkMode": "Темна",
+      "lightMode": "Світла",
+      "systemMode": "Системна тема",
+      "currency": "Валюта",
+      "currencyUah": "Гривня",
+      "currencyUsd": "Долар",
+      "currencyEur": "Євро",
+      "notifications": "Сповіщення",
+      "security": "Безпека",
+      "biometric": "Біометрична автентифікація",
+      "biometricLock": "Біометричний замок",
+      "biometricLockDesc": "Face ID / відбиток",
+      "pinCode": "PIN-код",
+      "changePassword": "Змінити пароль",
+      "twoFactor": "Двофакторна автентифікація",
+      "data": "Дані",
+      "backup": "Резервне копіювання",
+      "restore": "Відновлення",
+      "clearData": "Очистити дані",
+      "clearDataWarning": "Це видалить всі ваші дані",
+      "about": "Про додаток",
+      "rateApp": "⭐ Оцінити додаток",
+      "help": "Допомога",
+      "logout": "Вийти",
+      "deleteAccount": "Видалити акаунт",
+      "deleteAccountWarning": "Ця дія незворотна",
+      "haptic": "Гаптичний відгук",
+      "hapticDesc": "Вібрація при натисканні"
+    },
+    "notifications": {
+      "title": "Сповіщення",
+      "push": "Push-сповіщення",
+      "email": "Email-сповіщення",
+      "questReminders": "Нагадування про квести",
+      "streakAlerts": "Сповіщення про серію",
+      "depositReminders": "Нагадування про внески",
+      "weeklyReports": "Тижневі звіти",
+      "monthlyReports": "Щомісячні звіти",
+      "achievementAlerts": "Сповіщення про досягнення",
+      "marketing": "Маркетингові повідомлення",
+      "quietHours": "Тихі години",
+      "quietHoursStart": "Початок",
+      "quietHoursEnd": "Кінець",
+      "channels": "Канали сповіщень",
+      "channelQuests": "Квести",
+      "channelQuestsDesc": "Нові та завершені квести",
+      "channelAchievements": "Досягнення",
+      "channelAchievementsDesc": "Розблоковані досягнення",
+      "channelReminders": "Нагадування",
+      "channelRemindersDesc": "Щоденні нагадування",
+      "channelSocial": "Соціальні",
+      "channelSocialDesc": "Виклики та запити друзів",
+      "channelStreak": "Серія",
+      "channelStreakDesc": "Попередження про серію",
+      "streakWarningSection": "Попередження про серію",
+      "remindBefore": "Нагадати за:",
+      "streakWarningDesc": "Ви отримаєте сповіщення за {{hours}} годин до втрати серії",
+      "enableQuietHours": "Увімкнути тихі години",
+      "quietHoursDesc": "Без сповіщень у вибраний час",
+      "quietFrom": "З (год):",
+      "quietTo": "До (год):",
+      "saveSettings": "Зберегти налаштування",
+      "justNow": "щойно",
+      "minutesAgo": "{{count}} хв тому",
+      "hoursAgo": "{{count}} год тому",
+      "daysAgo": "{{count}} дн тому",
+      "metaDeposit": "Поповнення",
+      "metaWithdrawal": "Зняття",
+      "metaAchievement": "Досягнення",
+      "metaStreak": "Нагадування стріка",
+      "metaXp": "XP нараховані",
+      "metaSystem": "Системне повідомлення",
+      "depositConfirmed": "Поповнення підтверджено",
+      "withdrawalConfirmed": "Зняття підтверджено",
+      "transactionDesc": "{{type}} {{amount}} ₴ • XP +{{xp}}",
+      "scheduled": "Заплановано",
+      "thisWeek": "Цього тижня"
+    },
+    "goals": {
+      "title": "Мої цілі",
+      "active": "Активні",
+      "completed": "Завершені",
+      "archived": "Архівовані",
+      "paused": "Призупинені",
+      "addGoal": "Додати ціль",
+      "addNewGoal": "+ Додати нову ціль",
+      "editGoal": "Редагувати ціль",
+      "deleteGoal": "Видалити ціль",
+      "goalProgress": "Прогрес цілі",
+      "noGoals": "Немає цілей",
+      "noActiveGoals": "Немає активних цілей",
+      "noCompletedGoals": "Немає завершених цілей",
+      "noPausedGoals": "Немає призупинених цілей",
+      "activeCount": "Активних",
+      "completedCount": "Завершених",
+      "total": "Всього",
+      "emptyDesc": "Створіть нову ціль заощаджень"
+    },
+    "about": {
+      "title": "Про додаток",
+      "description": "SaveState — це гейміфікований додаток для заощаджень, який допомагає досягти фінансових цілей через ігрову мотивацію.",
+      "version": "Версія {version}",
+      "build": "Збірка {build}",
+      "developers": "Розробники",
+      "contact": "Зв'язок з нами",
+      "privacyPolicy": "Політика конфіденційності",
+      "termsOfService": "Умови використання",
+      "openSource": "Open Source ліцензії",
+      "versionInfo": "Версія 1.0.0",
+      "tagline": "Гейміфіковані заощадження",
+      "creditsText": "SaveState розроблено командою ентузіастів, які вірять у фінансову освіту через гейміфікацію.",
+      "faq": "Часті запитання",
+      "contacts": "Контакти та підтримка",
+      "footer": "Зроблено з ❤️ в Україні",
+      "faq0q": "Як працює система рівнів?",
+      "faq0a": "Ви отримуєте XP за кожну транзакцію та виконання квестів. XP накопичується і при досягненні певного порогу ви переходите на наступний рівень. Кожен рівень розблоковує нові функції та нагороди.",
+      "faq1q": "Що таке серія (streak)?",
+      "faq1a": "Серія — це кількість днів поспіль, коли ви вели записи у додатку. Тривала серія дає бонус XP та розблоковує спеціальні досягнення. Не втрачайте серію!",
+      "faq2q": "Як використати заморозку серії?",
+      "faq2a": "Заморозку серії можна отримати за виконання квестів або з бонусного колеса. Використайте її, щоб зберегти серію на один день, якщо ви пропустили запис.",
+      "faq3q": "Як створити виклик з другом?",
+      "faq3a": "Перейдіть у розділ \"Виклики\" та натисніть \"Створити\". Оберіть друга, мету та тривалість. Ваш друг отримає запит на прийняття виклику.",
+      "faq4q": "Чи безкоштовний SaveState?",
+      "faq4a": "Так, SaveState повністю безкоштовний. Усі функції доступні без підписки. Додаток фінансується через необовʼязкові реклами та покупки у магазині XP.",
+      "faq5q": "Як експортувати мої дані?",
+      "faq5a": "Перейдіть у \"Статистика\" → \"Експорт\". Оберіть формат (CSV, PDF або JSON), період та категорії. Дані будуть збережені або надіслані через систему обміну."
+    },
+    "help": {
+      "title": "Допомога",
+      "faqTitle": "Часті запитання",
+      "faq0q": "Як почати накопичувати?",
+      "faq0a": "Відкрийте головний екран і натисніть «Додати заощадження». Вкажіть суму, категорію та опис. Ваші заощадження автоматично рахуються до цілі, а ви отримуєте XP за кожну транзакцію.",
+      "faq1q": "Як змінити цільову суму?",
+      "faq1a": "Перейдіть у розділ «Цілі» → оберіть ціль → натисніть «Редагувати». Введіть нову суму та підтвердьте. Історія заощаджень зберігається, прогрес перераховується автоматично.",
+      "faq2q": "Що таке XP і рівні?",
+      "faq2a": "XP (досвід) — це бали, які ви отримуєте за дії в додатку: заощадження, виконання квестів, серії. Накопичення XP підвищує ваш рівень. Кожен рівень розблоковує нові функції та бонуси.",
+      "faq3q": "Як працюють квести?",
+      "faq3a": "Квести — це щоденні, тижневі та спеціальні завдання. Щоденні оновлюються щоранку, тижневі — кожен понеділок. За виконання квестів ви отримуєте XP, монети та унікальні нагороди.",
+      "faq4q": "Як запросити друга?",
+      "faq4a": "Перейдіть у «Профіль» → «Запросити друга». Поділіться посиланням через месенджер. Коли друг зареєструється і зробить перше заощадження, ви обидва отримаєте бонусний XP.",
+      "faq5q": "Як підключити банк?",
+      "faq5a": "У «Налаштуваннях» оберіть «Підключення банку». Виберіть свій банк з переліку, авторизуйтесь через банкінг-додаток. Підтримуються MonoBank, PrivatBank, A-Bank та інші українські банки.",
+      "faq6q": "Як експортувати дані?",
+      "faq6a": "Перейдіть у «Статистика» → «Експорт». Оберіть формат: CSV, PDF або JSON. Вкажіть період та категорії. Дані будуть збережені на пристрої або надіслані через систему обміну.",
+      "tutorial": "Навчання",
+      "tutorialDesc": "Пройдіть онбординг ще раз, щоб освіжити знання про основні функції додатку.",
+      "restartOnboarding": "🔄 Перезапустити онбординг",
+      "contactUs": "Зв'язатись з нами",
+      "contactDesc": "Маєте питання або проблему? Наша команда підтримки відповість протягом 24 годин.",
+      "inAppChat": "💬 Чат в додатку",
+      "updates": "Оновлення",
+      "changelog": "Changelog v2.1",
+      "viewChangelog": "Переглянути історію змін"
+    },
+    "widget": {
+      "title": "Віджет робочого столу",
+      "sizeSmall": "Малий",
+      "sizeMedium": "Середній",
+      "sizeLarge": "Великий",
+      "freqHourly": "Кожну годину",
+      "freqOnOpen": "При відкритті",
+      "freqLive": "Live",
+      "step1": "Затисни на робочий стіл",
+      "step2": "Обери «Віджети»",
+      "step3": "Знайди SaveState",
+      "step4": "Вибери розмір та додай",
+      "selectSize": "Обери розмір віджета:",
+      "instruction": "Інструкція:",
+      "frequency": "Частота оновлення:",
+      "addWidget": "Додати віджет",
+      "previewGoal": "Ціль",
+      "previewSavings": "Заощадження",
+      "goalTarget": "Ціль: {{amount}}",
+      "days": "днів",
+      "streak": "Стрік",
+      "achievements": "Досягнення"
+    },
+    "reminder": {
+      "title": "Щоденне нагадування",
+      "enable": "Увімкнути нагадування",
+      "time": "Час нагадування",
+      "daysOfWeek": "Дні тижня",
+      "messageType": "Тип повідомлення",
+      "typeMotivational": "Мотиваційне",
+      "typeQuest": "Квест-нагадування",
+      "typeStats": "Статистика дня",
+      "preview": "Перегляд сповіщення",
+      "previewMotivational": "Час зберегти трохи більше! 💪 Кожна гривня — це XP до твого наступного рівня.",
+      "previewQuest": "Новий щоденний квест! ⚔️ Виконай його та отримай бонусні монети.",
+      "previewStats": "Твій прогрес за сьогодні 📊 Збережено: 250₴ | XP: +120 | Серія: 7 днів 🔥",
+      "streakPreview": "🔥 Серія: 7 днів",
+      "now": "зараз",
+      "save": "Зберегти нагадування"
+    },
+    "privacy": {
+      "title": "Дані та приватність",
+      "exportData": "📤 Експорт даних",
+      "pdfReport": "Звіт у PDF",
+      "pdfReportDesc": "Всі транзакції + статистика",
+      "csvExport": "Експорт CSV",
+      "csvExportDesc": "Транзакції у таблиці",
+      "export": "Експорт",
+      "exporting": "⏳ Генерування",
+      "clearTransactions": "⚠️ Очистити транзакції",
+      "clearTransactionsWarning": "Ви впевнені? Усі транзакції буде видалено назавжди.",
+      "dataCleared": "Всі транзакції успішно видалено",
+      "dangerZone": "🛡️ Зона ризику",
+      "irreversibleWarning": "⚡ Ці дії незворотні. Будьте обережні.",
+      "legalInfo": "📜 Правова інформація",
+      "noNotifications": "Немає сповіщень",
+      "noNotificationsDesc": "Усі сповіщення прочитані. Нові з'являться тут автоматично.",
+      "markAllRead": "Проч. все",
+      "updating": "Оновлення...",
+      "deleteNotification": "Видалити сповіщення",
+      "deleteNotificationWarning": "Це сповищення буде видалено назавжди.",
+      "longPressHint": "Довге натискання — видалити сповищення",
+      "referral": {
+        "title": "Реферальна програма",
+        "heroText": "Запроси друга — отримай нагороду!",
+        "promoCode": "Твій промокод",
+        "copy": "Копіювати",
+        "copied": "Скопійовано!",
+        "share": "Поділитись",
+        "scanToJoin": "Скануй для входу",
+        "rewardTiers": "Нагороди за рефералів",
+        "invitedFriends": "Запрошені друзі",
+        "inviteFriend": "🚀 Запросити друга",
+        "friend": "друг",
+        "friends": "друзі",
+        "received": "Отримано",
+        "accepted": "Прийнято",
+        "pending": "Очікує",
+        "invited": "Запрошено",
+        "comingSoon": "🚧 Реферальна програма скоро буде доступна!",
+        "comingSoonDesc": "Ми працюємо над системою запрошення друзів. Залишайтесь на зв'язку — скоро ви зможете запрошувати друзів та отримувати бонуси!",
+        "inviteAlert": "Відправ запрошення або скопіюй промокод!"
+      }
+    }
+  },
+
+  "debt": {
+    "main": {
+      "title": "Борги",
+      "subtitle": "Відстежуйте та погашайте борги",
+      "totalDebt": "Загальний борг",
+      "totalPaid": "Всього сплачено",
+      "remaining": "Залишилось",
+      "addDebt": "Додати борг",
+      "noDebts": "У вас немає боргів",
+      "debtFree": "Ви не маєте боргів! Чудово!"
+    },
+    "add": {
+      "title": "Додати борг",
+      "creditor": "Кредитор",
+      "creditorPlaceholder": "Ім'я кредитора",
+      "amount": "Сума боргу",
+      "interestRate": "Відсоткова ставка",
+      "minimumPayment": "Мінімальний платіж",
+      "dueDate": "Дата оплати",
+      "type": "Тип",
+      "typeCredit": "Кредитна картка",
+      "typeLoan": "Позика",
+      "typeMortgage": "Іпотека",
+      "typePersonal": "Особистий борг",
+      "typeOther": "Інше",
+      "notes": "Примітки",
+      "add": "Додати борг",
+      "addAnother": "Додати ще"
+    },
+    "edit": {
+      "title": "Редагувати борг",
+      "update": "Оновити борг",
+      "markPaid": "Позначити як сплачений",
+      "archive": "Архівувати"
+    },
+    "payment": {
+      "title": "Платіж",
+      "makePayment": "Зробити платіж",
+      "amount": "Сума платежу",
+      "date": "Дата платежу",
+      "method": "Спосіб оплати",
+      "confirm": "Підтвердити платіж",
+      "paymentSuccess": "Платіж успішний",
+      "paymentFailed": "Помилка платежу",
+      "nextPayment": "Наступний платіж",
+      "paymentHistory": "Історія платежів",
+      "noPayments": "Немає платежів",
+      "remainingPayments": "Залишилось платежів",
+      "estimatedPayoff": "Орієнтовне погашення"
+    }
+  },
+
+  "money": {
+    "wallet": {
+      "title": "Гаманець",
+      "totalBalance": "Загальний баланс",
+      "accounts": "Рахунки",
+      "addAccount": "Додати рахунок",
+      "cash": "Готівка",
+      "bankCards": "Банківські картки",
+      "noAccounts": "Немає рахунків"
+    },
+    "expense": {
+      "title": "Витрати",
+      "addExpense": "Додати витрату",
+      "amount": "Сума",
+      "category": "Категорія",
+      "note": "Примітка",
+      "date": "Дата",
+      "account": "Рахунок",
+      "recent": "Останні витрати",
+      "todayExpenses": "Витрати сьогодні",
+      "thisMonthExpenses": "Витрати цього місяця"
+    },
+    "budget": {
+      "title": "Бюджет",
+      "monthlyBudget": "Щомісячний бюджет",
+      "setBudget": "Встановити бюджет",
+      "categoryBudget": "Бюджет категорії",
+      "remaining": "Залишилось",
+      "spent": "Витрачено",
+      "overBudget": "Перевищення бюджету",
+      "underBudget": "В межах бюджету",
+      "budgetAlert": "Сповіщення про бюджет",
+      "resetBudget": "Скинути бюджет"
+    },
+    "bills": {
+      "title": "Рахунки",
+      "addBill": "Додати рахунок",
+      "upcoming": "Найближчі",
+      "overdue": "Прострочені",
+      "paid": "Сплачені",
+      "totalBills": "Загальна сума",
+      "noBills": "Немає рахунків",
+      "markPaid": "Позначити як сплачений",
+      "recurringBills": "Регулярні рахунки"
+    },
+    "loans": {
+      "title": "Позики",
+      "activeLoans": "Активні позики",
+      "addLoan": "Додати позику",
+      "totalBorrowed": "Всього позичено",
+      "totalLent": "Всього позичено іншим",
+      "borrowed": "Позичено",
+      "lent": "Позичено іншим"
+    },
+    "subscriptions": {
+      "title": "Підписки",
+      "active": "Активні",
+      "addSubscription": "Додати підписку",
+      "monthlyCost": "Щомісячна вартість",
+      "nextPayment": "Наступний платіж",
+      "totalSubscriptions": "Всього підписок",
+      "cancelSubscription": "Скасувати підписку",
+      "noSubscriptions": "Немає підписок"
+    },
+    "split": {
+      "title": "Поділ витрат",
+      "newSplit": "Новий поділ",
+      "participants": "Учасники",
+      "addParticipant": "Додати учасника",
+      "totalAmount": "Загальна сума",
+      "yourShare": "Ваша частка",
+      "settleUp": "Погасити",
+      "youOwe": "Ви заборгували",
+      "owedToYou": "Вам заборгували"
+    },
+    "income": {
+      "title": "Доходи",
+      "addIncome": "Додати дохід",
+      "source": "Джерело",
+      "amount": "Сума",
+      "frequency": "Частота",
+      "oneTime": "Разова",
+      "recurring": "Регулярна",
+      "thisMonth": "Цього місяця",
+      "thisYear": "Цього року"
+    },
+    "analytics": {
+      "title": "Аналітика",
+      "overview": "Огляд",
+      "trends": "Тренди",
+      "insights": "Інсайти",
+      "spendingByCategory": "Витрати за категоріями",
+      "incomeVsExpenses": "Доходи vs Витрати",
+      "savingsRate": "Рівень заощаджень",
+      "netWorth": "Чистий дохід"
+    },
+    "estimator": {
+      "title": "Оцінювач",
+      "subtitle": "Оцініть свої фінансові можливості",
+      "estimate": "Оцінити",
+      "result": "Результат"
+    },
+    "emergency": {
+      "title": "Фонд екстрених витрат",
+      "target": "Ціль",
+      "current": "Поточний",
+      "progress": "Прогрес",
+      "monthsCovered": "Місяців покриття",
+      "recommended": "Рекомендовано: {months} місяців",
+      "addFunds": "Додати кошти"
+    },
+    "calculator": {
+      "title": "Калькулятор",
+      "basic": "Базовий",
+      "advanced": "Розширений",
+      "loanCalc": "Кредитний калькулятор",
+      "savingsCalc": "Калькулятор заощаджень",
+      "currencyConverter": "Конвертер валют"
+    },
+    "cashback": {
+      "title": "Кешбек",
+      "totalCashback": "Всього кешбеку",
+      "available": "Доступно",
+      "pending": "Очікує",
+      "withdraw": "Вивести",
+      "history": "Історія кешбеку"
+    },
+    "deposits": {
+      "title": "Депозити",
+      "activeDeposits": "Активні депозити",
+      "addDeposit": "Додати депозит",
+      "interestRate": "Відсоткова ставка",
+      "maturityDate": "Дата закінчення",
+      "totalReturns": "Загальний дохід"
+    },
+    "categories": {
+      "title": "Категорії",
+      "addCategory": "Додати категорію",
+      "editCategory": "Редагувати категорію",
+      "icon": "Іконка",
+      "color": "Колір",
+      "budget": "Бюджет",
+      "transactions": "Транзакції"
+    },
+    "transfers": {
+      "title": "Перекази",
+      "newTransfer": "Новий переказ",
+      "from": "З",
+      "to": "До",
+      "amount": "Сума",
+      "note": "Примітка",
+      "recentTransfers": "Останні перекази"
+    },
+    "summary": {
+      "title": "Підсумок",
+      "monthly": "Щомісячний",
+      "weekly": "Щотижневий",
+      "yearly": "Щорічний",
+      "income": "Доходи",
+      "expenses": "Витрати",
+      "savings": "Заощадження",
+      "net": "Чистий результат"
+    },
+    "currency": {
+      "title": "Валюти",
+      "baseCurrency": "Основна валюта",
+      "addCurrency": "Додати валюту",
+      "exchangeRate": "Курс обміну",
+      "lastUpdated": "Оновлено"
+    },
+    "dreams": {
+      "title": "Мрії",
+      "addDream": "Додати мрію",
+      "myDreams": "Мої мрії",
+      "funded": "Фінансовані",
+      "progress": "Прогрес фінансування",
+      "noDreams": "Додайте свою першу мрію"
+    },
+    "trip": {
+      "title": "Подорож",
+      "planTrip": "Запланувати подорож",
+      "budget": "Бюджет подорожі",
+      "saved": "Збережено",
+      "remaining": "Залишилось",
+      "destinations": "Напрямки",
+      "itinerary": "Маршрут",
+      "expenses": "Витрати на подорож"
+    },
+    "templates": {
+      "title": "Шаблони",
+      "budgetTemplates": "Шаблони бюджету",
+      "savingsTemplates": "Шаблони заощаджень",
+      "useTemplate": "Використати шаблон",
+      "createTemplate": "Створити шаблон"
+    },
+    "reports": {
+      "title": "Звіти",
+      "generateReport": "Згенерувати звіт",
+      "shareReport": "Поділитися звітом",
+      "downloadReport": "Завантажити звіт"
+    },
+    "notes": {
+      "title": "Нотатки",
+      "addNote": "Додати нотатку",
+      "editNote": "Редагувати нотатку",
+      "deleteNote": "Видалити нотатку",
+      "noNotes": "Немає нотаток"
+    },
+    "reminders": {
+      "title": "Нагадування",
+      "addReminder": "Додати нагадування",
+      "active": "Активні",
+      "completed": "Завершені",
+      "noReminders": "Немає нагадувань"
+    }
+  },
+
+  "achievements": {
+    "firstDeposit": {
+      "title": "Перший внесок",
+      "description": "Зробіть свій перший внесок у скарбник"
+    },
+    "saver1000": {
+      "title": "Збирач тисячі",
+      "description": "Зберігте 1 000 грн"
+    },
+    "saver10000": {
+      "title": "Збирач десяти тисяч",
+      "description": "Зберігте 10 000 грн"
+    },
+    "saver50000": {
+      "title": "Збирач п'ятдесяти тисяч",
+      "description": "Зберігте 50 000 грн"
+    },
+    "saver100000": {
+      "title": "Майстер заощаджень",
+      "description": "Зберігте 100 000 грн"
+    },
+    "saver500000": {
+      "title": "Легенда заощаджень",
+      "description": "Зберігте 500 000 грн"
+    },
+    "streak3": {
+      "title": "Три дні поспіль",
+      "description": "Досягніть серії 3 дні"
+    },
+    "streak7": {
+      "title": "Тижнева серія",
+      "description": "Досягніть серії 7 днів"
+    },
+    "streak14": {
+      "title": "Двотижнева серія",
+      "description": "Досягніть серії 14 днів"
+    },
+    "streak30": {
+      "title": "Місячна серія",
+      "description": "Досягніть серії 30 днів"
+    },
+    "streak90": {
+      "title": "Квартальна серія",
+      "description": "Досягніть серії 90 днів"
+    },
+    "streak365": {
+      "title": "Річна серія",
+      "description": "Досягніть серії 365 днів"
+    },
+    "questFirst": {
+      "title": "Перший квест",
+      "description": "Виконайте свій перший квест"
+    },
+    "quest10": {
+      "title": "Мисливець за квестами",
+      "description": "Виконайте 10 квестів"
+    },
+    "quest50": {
+      "title": "Майстер квестів",
+      "description": "Виконайте 50 квестів"
+    },
+    "quest100": {
+      "title": "Легенда квестів",
+      "description": "Виконайте 100 квестів"
+    },
+    "dailyComplete": {
+      "title": "Щоденний герой",
+      "description": "Виконайте всі щоденні квести за один день"
+    },
+    "weeklyComplete": {
+      "title": "Тижневий чемпіон",
+      "description": "Виконайте всі тижневі квести"
+    },
+    "level5": {
+      "title": "Новачок",
+      "description": "Досягніть 5-го рівня"
+    },
+    "level10": {
+      "title": "Учень",
+      "description": "Досягніть 10-го рівня"
+    },
+    "level20": {
+      "title": "Боєць",
+      "description": "Досягніть 20-го рівня"
+    },
+    "level30": {
+      "title": "Ветеран",
+      "description": "Досягніть 30-го рівня"
+    },
+    "level40": {
+      "title": "Експерт",
+      "description": "Досягніть 40-го рівня"
+    },
+    "level50": {
+      "title": "Майстер",
+      "description": "Досягніть максимального рівня"
+    },
+    "budgetMaster": {
+      "title": "Бюджетний майстер",
+      "description": "Залишайтесь в межах бюджету 30 днів поспіль"
+    },
+    "debtFree": {
+      "title": "Вільний від боргів",
+      "description": "Погасіть всі борги"
+    },
+    "goalComplete": {
+      "title": "Досягнення цілі",
+      "description": "Досягніть своєї фінансової цілі"
+    },
+    "multipleGoals": {
+      "title": "Багатоцільовий",
+      "description": "Досягніть 3 фінансових цілі"
+    },
+    "earlyBird": {
+      "title": "Ранній пташка",
+      "description": "Зробіть внесок до 8:00 ранку"
+    },
+    "nightOwl": {
+      "title": "Нічна сова",
+      "description": "Зробіть внесок після 22:00"
+    },
+    "socialStar": {
+      "title": "Зірка спільноти",
+      "description": "Досягніть топ-10 в рейтингу"
+    },
+    "wheelLucky": {
+      "title": "Щасливчик",
+      "description": "Виграйте джекпот на колесі"
+    },
+    "noSpendDay": {
+      "title": "День без витрат",
+      "description": "Проведіть день без жодних витрат"
+    },
+    "noSpendWeek": {
+      "title": "Тиждень без витрат",
+      "description": "Проведіть 7 днів без витрат"
+    },
+    "reporter": {
+      "title": "Репортер",
+      "description": "Згенеруйте 10 звітів"
+    },
+    "mentor": {
+      "title": "Наставник",
+      "description": "Допоможіть 5 користувачам"
+    }
+  },
+
+  "quests_content": {
+    "daily": {
+      "firstStep": {
+        "title": "Перший крок",
+        "description": "Зробіть внесок у будь-який скарбник"
+      },
+      "expenseTracker": {
+        "title": "Трекер витрат",
+        "description": "Запишіть всі витрати за сьогодні"
+      },
+      "noSpend": {
+        "title": "День економії",
+        "description": "Уникайте необов'язкових витрат сьогодні"
+      },
+      "roundUp": {
+        "title": "Округлення",
+        "description": "Переведіть решту з 3 транзакцій у скарбник"
+      },
+      "knowledgeGain": {
+        "title": "Фінансова грамотність",
+        "description": "Прочитайте пораду дня"
+      },
+      "budgetCheck": {
+        "title": "Перевірка бюджету",
+        "description": "Перевірте свій бюджет на сьогодні"
+      },
+      "reviewGoals": {
+        "title": "Огляд цілей",
+        "description": "Перегляньте прогрес своїх цілей"
+      },
+      "addExpense": {
+        "title": "Учет витрат",
+        "description": "Додайте принаймні 3 витрати"
+      },
+      "streakMaintain": {
+        "title": "Збереження серії",
+        "description": "Зробіть внесок для збереження серії"
+      },
+      "socialShare": {
+        "title": "Мотиватор",
+        "description": "Поділіться своїм досягненням"
+      }
+    },
+    "weekly": {
+      "bigSaver": {
+        "title": "Великий заощадник",
+        "description": "Збережіть на {amount} грн більше за минулий тиждень"
+      },
+      "budgetHero": {
+        "title": "Герой бюджету",
+        "description": "Залишайтесь в межах бюджету всі 7 днів"
+      },
+      "debtDestroyer": {
+        "title": "Вбивця боргів",
+        "description": "Зробіть додатковий платіж за борг"
+      },
+      "categoryMaster": {
+        "title": "Майстер категорій",
+        "description": "Запишіть витрати у всі категорії"
+      },
+      "weekStreak": {
+        "title": "Тижнева серія",
+        "description": "Зберігайте серію 7 днів поспіль"
+      },
+      "questCollector": {
+        "title": "Колекціонер квестів",
+        "description": "Виконайте 5 щоденних квестів за тиждень"
+      },
+      "financialCheckup": {
+        "title": "Фінансовий огляд",
+        "description": "Перегляньте всі свої фінансові показники"
+      },
+      "savingsChallenge": {
+        "title": "Виклик заощаджень",
+        "description": "Збережіть щодня зростаючу суму протягом тижня"
+      }
+    },
+    "story": {
+      "chapter1": {
+        "title": "Початок подорожі",
+        "description": "Створіть свій перший скарбник та зробіть перший внесок"
+      },
+      "chapter2": {
+        "title": "Перші звички",
+        "description": "Сформуйте щоденну звичку заощадження"
+      },
+      "chapter3": {
+        "title": "Бюджетний воїн",
+        "description": "Навчіться керувати своїм бюджетом"
+      },
+      "chapter4": {
+        "title": "Мисливець за боргами",
+        "description": "Почніть відстежувати та погашати борги"
+      },
+      "chapter5": {
+        "title": "Інвестиційний розум",
+        "description": "Дізнайтеся про основи інвестування"
+      },
+      "chapter6": {
+        "title": "Майстер цілей",
+        "description": "Досягніть своєї першої фінансової цілі"
+      },
+      "chapter7": {
+        "title": "Командний гравець",
+        "description": "Створіть спільний скарбник з друзями"
+      },
+      "chapter8": {
+        "title": "Фінансова свобода",
+        "description": "Створіть план досягнення фінансової свободи"
+      },
+      "chapter9": {
+        "title": "Легенда заощаджень",
+        "description": "Досягніть максимального рівня"
+      },
+      "chapter10": {
+        "title": "Нова ера",
+        "description": "Завершіть всі сторі-квести та станьте легендою"
+      }
+    }
+  },
+
+  "levels": {
+    "1": "Початківець",
+    "2": "Учень",
+    "3": "Студент",
+    "4": "Практикант",
+    "5": "Молодший фінансист",
+    "6": "Фінансовий радник",
+    "7": "Бюджетник",
+    "8": "Економіст",
+    "9": "Скарбник",
+    "10": "Збирач монет",
+    "11": "Копач золота",
+    "12": "Трейдер",
+    "13": "Інвестор",
+    "14": "Банкір",
+    "15": "Менеджер активів",
+    "16": "Фінансовий стратег",
+    "17": "Аналітик",
+    "18": "Планувальник",
+    "19": "Виконавець",
+    "20": "Боєць заощаджень",
+    "21": "Захисник бюджету",
+    "22": "Мисливець за боргами",
+    "23": "Майстер монет",
+    "24": "Збирач скарбів",
+    "25": "Хранитель багатства",
+    "26": "Стратег інвестицій",
+    "27": "Фінансовий воїн",
+    "28": "Командир заощаджень",
+    "29": "Архітектор плану",
+    "30": "Ветеран фінансів",
+    "31": "Експерт заощаджень",
+    "32": "Майстер бюджету",
+    "33": "Грандмастер",
+    "34": "Елітний збирач",
+    "35": "Преміум радник",
+    "36": "Магістр фінансів",
+    "37": "Візіонер",
+    "38": "Архітектор багатства",
+    "39": "Фінансовий гуру",
+    "40": "Легенда фінансів",
+    "41": "Чемпіон заощаджень",
+    "42": "Супергерой бюджету",
+    "43": "Титан інвестицій",
+    "44": "Володар скарбів",
+    "45": "Майстер фінансової свободи",
+    "46": "Імператор заощаджень",
+    "47": "Крона багатства",
+    "48": "Напівбог фінансів",
+    "49": "Бог заощаджень",
+    "50": "Легенда SaveState"
+  },
+
+  "notifications": {
+    "streak": {
+      "atRisk": "Ваша серія {days} днів під загрозою! Зробіть внесок, щоб її зберегти.",
+      "maintained": "Чудово! Ви зберегли серію {days} днів! Продовжуйте!",
+      "broken": "Вашу серію {days} днів втрачено. Не здавайтеся, почніть нову!",
+      "milestone": "Вітаємо! Ви досягли серії {days} днів! Бонус: +{xp} XP!",
+      "weekStreak": "Тижнева серія! 7 днів поспіль! Бонус: +{xp} XP!",
+      "monthStreak": "Місячна серія! 30 днів поспіль! Ви неймовірні!"
+    },
+    "quests": {
+      "newDaily": "Нові щоденні квести доступні! Виконайте їх для нагород.",
+      "newWeekly": "Нові тижневі квести! Великі нагороди чекають.",
+      "expiringSoon": "Квест \"{name}\" закінчується через {hours} годин!",
+      "completed": "Квест \"{name}\" виконано! Нагорода: +{xp} XP",
+      "failed": "Квест \"{name}\" не виконано. Спробуйте ще наступного разу.",
+      "storyUnlock": "Новий розділ розблоковано: {chapter}!",
+      "challengeAvailable": "Новий виклик доступний: \"{name}\""
+    },
+    "achievements": {
+      "unlocked": "Нове досягнення: \"{name}\"! {description}",
+      "rareUnlocked": "Рідкісне досягнення: \"{name}\"! Чудово!",
+      "legendaryUnlocked": "ЛЕГЕНДАРНЕ досягнення: \"{name}\"! Ви неймовірні!",
+      "closeToUnlock": "Ви близько до досягнення \"{name}\"! Залишилось {percent}%"
+    },
+    "vault": {
+      "depositSuccess": "Внесок {amount} грн успішно зараховано.",
+      "withdrawSuccess": "Зняття {amount} грн успішне.",
+      "goalReached": "Цілі \"{name}\" досягнуто! Вітаємо!",
+      "recurringDeposit": "Регулярний внесок {amount} грн виконано.",
+      "recurringFailed": "Не вдалося виконати регулярний внесок. Перевірте баланс."
+    },
+    "budget": {
+      "warning": "Увага! Ви витратили {percent}% бюджету.",
+      "exceeded": "Бюджет перевищено на {amount} грн.",
+      "categoryWarning": "Бюджет категорії \"{name}\" майже вичерпано."
+    },
+    "debt": {
+      "paymentDue": "Платіж за борг \"{name}\" через {days} днів.",
+      "paymentOverdue": "Платіж за борг \"{name}\" прострочений!",
+      "debtPaid": "Борг \"{name}\" повністю погашено! Вітаємо!"
+    },
+    "social": {
+      "leaderboardUpdate": "Ви піднялись до {rank}-го місця в рейтингу!",
+      "friendJoined": "Ваш друг {name} приєднався до SaveState!",
+      "challengeInvite": "{name} запросив вас на виклик: \"{challenge}\""
+    },
+    "system": {
+      "appUpdate": "Доступна нова версія SaveState ({version}).",
+      "maintenance": "Плануване обслуговування {date}. Дані будуть збережені.",
+      "backupComplete": "Резервне копіювання завершено.",
+      "newFeature": "Нова функція: {feature}! Спробуйте зараз."
+    }
+  },
+
+  "errors": {
+    "network": {
+      "noConnection": "Немає з'єднання з інтернетом",
+      "timeout": "Час очікування вичерпано",
+      "serverDown": "Сервер недоступний",
+      "slowConnection": "Повільне з'єднання",
+      "tryAgain": "Перевірте підключення та спробуйте ще"
+    },
+    "validation": {
+      "required": "Це поле обов'язкове",
+      "invalidEmail": "Невірний формат email",
+      "invalidPhone": "Невірний формат телефону",
+      "passwordTooShort": "Пароль занадто короткий",
+      "passwordNoMatch": "Паролі не збігаються",
+      "invalidAmount": "Невірна сума",
+      "amountTooSmall": "Сума занадто мала",
+      "amountTooLarge": "Сума занадто велика",
+      "invalidDate": "Невірна дата",
+      "dateInPast": "Дата в минулому",
+      "nameTooShort": "Ім'я занадто коротке",
+      "invalidFormat": "Невірний формат"
+    },
+    "sync": {
+      "failed": "Помилка синхронізації",
+      "conflict": "Конфлікт даних",
+      "dataOutdated": "Дані застаріли",
+      "retrySync": "Повторити синхронізацію",
+      "lastSyncFailed": "Остання синхронізація не вдалася"
+    },
+    "auth": {
+      "invalidCredentials": "Невірний email або пароль",
+      "accountExists": "Акаунт вже існує",
+      "accountNotFound": "Акаунт не знайдено",
+      "sessionExpired": "Сесія закінчилась. Увійдіть знову.",
+      "tooManyAttempts": "Забагато спроб. Спробуйте пізніше.",
+      "emailNotVerified": "Email не підтверджено",
+      "passwordResetExpired": "Посилання для скидання паролю закінчилось",
+      "unauthorized": "Немає доступу"
+    },
+    "vault": {
+      "insufficientFunds": "Недостатньо коштів",
+      "vaultNotFound": "Скарбник не знайдено",
+      "depositFailed": "Помилка внеску",
+      "withdrawFailed": "Помилка зняття",
+      "cannotDelete": "Неможливо видалити скарбник з коштами",
+      "vaultLimit": "Досягнуто ліміту скарбників",
+      "nameExists": "Скарбник з такою назвою вже існує"
+    },
+    "payment": {
+      "failed": "Платіж не виконано",
+      "insufficientBalance": "Недостатній баланс",
+      "cardDeclined": "Картку відхилено",
+      "transactionFailed": "Транзакція не виконана"
+    },
+    "general": {
+      "unknownError": "Невідома помилка",
+      "somethingWentWrong": "Щось пішло не так",
+      "tryLater": "Спробуйте пізніше",
+      "contactSupport": "Зверніться до підтримки",
+      "reportBug": "Повідомити про помилку"
+    }
+  },
+
+  "categories": {
+    "food": "Їжа та напої",
+    "transport": "Транспорт",
+    "housing": "Житло",
+    "utilities": "Комунальні послуги",
+    "health": "Здоров'я",
+    "entertainment": "Розваги",
+    "shopping": "Покупки",
+    "education": "Освіта",
+    "travel": "Подорожі",
+    "beauty": "Краса",
+    "sports": "Спорт",
+    "subscriptions": "Підписки",
+    "gifts": "Подарунки",
+    "clothing": "Одяг",
+    "electronics": "Електроніка",
+    "pets": "Тварини",
+    "insurance": "Страхування",
+    "savings": "Заощадження",
+    "investments": "Інвестиції",
+    "income": "Доходи",
+    "salary": "Зарплата",
+    "freelance": "Фріланс",
+    "business": "Бізнес",
+    "rental": "Оренда",
+    "dividends": "Дивіденди",
+    "other": "Інше",
+    "cafe": "Кафе та ресторани",
+    "groceries": "Продукти",
+    "fuel": "Пальне",
+    "parking": "Парковка",
+    "taxi": "Таксі",
+    "pharmacy": "Аптека",
+    "doctor": "Лікар",
+    "gym": "Фітнес",
+    "cinema": "Кінотеатр",
+    "concerts": "Концерти",
+    "books": "Книги",
+    "courses": "Курси",
+    "internet": "Інтернет",
+    "phone": "Телефон",
+    "repairs": "Ремонт",
+    "children": "Діти"
+  },
+
+  "gamification": {
+    "xpEarned": "+{amount} XP зароблено",
+    "xpBonus": "Бонус XP: +{amount}",
+    "xpFromDeposit": "XP за внесок",
+    "xpFromQuest": "XP за квест",
+    "xpFromAchievement": "XP за досягнення",
+    "xpFromStreak": "XP за серію",
+    "levelUpMessage": "Підвищення рівня! Рівень {level}",
+    "newLevelUnlocked": "Новий рівень розблоковано!",
+    "levelRewards": "Нагороди за рівень {level}",
+    "coinsEarned": "+{amount} монет зароблено",
+    "coinsSpent": "{amount} монет витрачено",
+    "streakMessage": "Серія {days} днів!",
+    "streakBonusMessage": "Бонус серії: x{multiplier}",
+    "streakMaintained": "Серія збережена!",
+    "streakBroken": "Серія втрачена 😢",
+    "achievementPop": "Нове досягнення!",
+    "questComplete": "Квест виконано!",
+    "challengeComplete": "Виклик виконано!",
+    "wheelSpin": "Обертання колеса!",
+    "dailyReward": "Щоденна нагорода",
+    "weeklyReward": "Тижнева нагорода",
+    "bonusMultiplier": "Множник бонусу: x{multiplier}",
+    "comboMessage": "Комбо x{count}! Ще {remaining} до бонусу!",
+    "powerUpActivated": "Підсилення активовано!",
+    "shieldActive": "Щит серії активовано!",
+    "doubleXpActive": "Подвоєння XP активовано!",
+    "luckyCharmActive": "Щасливий талісман активовано!",
+    "rankUp": "Підвищення в рейтингу!",
+    "rankDown": "Пониження в рейтингу",
+    "topRank": "Ви в топ-10!",
+    "personalBest": "Особистий рекорд!"
+  }
+}

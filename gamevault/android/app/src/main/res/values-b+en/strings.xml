@@ -1,0 +1,19 @@
+<resources>
+  <string name="common">"[object Object]"</string>
+  <string name="calendar">"[object Object]"</string>
+  <string name="auth">"[object Object]"</string>
+  <string name="home">"[object Object]"</string>
+  <string name="vault">"[object Object]"</string>
+  <string name="quests">"[object Object]"</string>
+  <string name="stats">"[object Object]"</string>
+  <string name="profile">"[object Object]"</string>
+  <string name="debt">"[object Object]"</string>
+  <string name="money">"[object Object]"</string>
+  <string name="achievements">"[object Object]"</string>
+  <string name="quests_content">"[object Object]"</string>
+  <string name="levels">"[object Object]"</string>
+  <string name="notifications">"[object Object]"</string>
+  <string name="errors">"[object Object]"</string>
+  <string name="categories">"[object Object]"</string>
+  <string name="gamification">"[object Object]"</string>
+</resources>

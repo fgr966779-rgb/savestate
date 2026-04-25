@@ -1,0 +1,1742 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "close": "Close",
+    "ok": "OK",
+    "retry": "Retry",
+    "skip": "Skip",
+    "continue": "Continue",
+    "done": "Done",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "noData": "No data",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "required": "Required field",
+    "optional": "Optional",
+    "submit": "Submit",
+    "apply": "Apply",
+    "reset": "Reset",
+    "refresh": "Refresh",
+    "share": "Share",
+    "copy": "Copy",
+    "copied": "Copied",
+    "select": "Select",
+    "selected": "Selected",
+    "unselected": "Unselected",
+    "or": "or",
+    "and": "and",
+    "of": "of",
+    "total": "Total",
+    "balance": "Balance",
+    "amount": "Amount",
+    "date": "Date",
+    "time": "Time",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This week",
+    "thisMonth": "This month",
+    "thisYear": "This year",
+    "currency": "Hryvnia",
+    "currencyCode": "UAH",
+    "seeAll": "See all",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "pullToRefresh": "Pull down to refresh",
+    "lastUpdated": "Last updated",
+    "version": "Version",
+    "comingSoon": "Coming Soon!",
+    "loadMore": "Load more...",
+    "months": {
+      "1": "January", "2": "February", "3": "March", "4": "April",
+      "5": "May", "6": "June", "7": "July", "8": "August",
+      "9": "September", "10": "October", "11": "November", "12": "December"
+    },
+    "monthsGenitive": {
+      "1": "January", "2": "February", "3": "March", "4": "April",
+      "5": "May", "6": "June", "7": "July", "8": "August",
+      "9": "September", "10": "October", "11": "November", "12": "December"
+    },
+    "days": {
+      "0": "Mon", "1": "Tue", "2": "Wed", "3": "Thu",
+      "4": "Fri", "5": "Sat", "6": "Sun"
+    },
+    "daysFull": {
+      "0": "Sunday", "1": "Monday", "2": "Tuesday", "3": "Wednesday",
+      "4": "Thursday", "5": "Friday", "6": "Saturday"
+    }
+  },
+
+  "calendar": {
+    "activeDays": "Active days",
+    "avgPerDay": "Avg/day",
+    "bestDay": "Best day",
+    "dayDetails": "Day details",
+    "deposit": "Deposit",
+    "withdrawal": "Withdrawal",
+    "category": "Category",
+    "xpEarned": "XP earned",
+    "note": "Note",
+    "noActivity": "None",
+    "vsPreviousMonth": "vs {{month}}"
+  },
+
+  "auth": {
+    "splash": {
+      "title": "SaveState",
+      "subtitle": "Your savings game",
+      "loading": "Loading..."
+    },
+    "welcome": {
+      "title": "Welcome!",
+      "subtitle": "Turn savings into an adventure",
+      "description": "SaveState helps you achieve financial goals through gamification",
+      "getStarted": "Get Started",
+      "signIn": "Sign In",
+      "alreadyHaveAccount": "Already have an account?",
+      "noAccount": "Don't have an account?"
+    },
+    "goalSelection": {
+      "title": "Choose Your Goal",
+      "subtitle": "What do you want to achieve?",
+      "emergencyFund": "Emergency Fund",
+      "vacation": "Vacation",
+      "bigPurchase": "Big Purchase",
+      "newCar": "New Car",
+      "education": "Education",
+      "home": "Home",
+      "retirement": "Retirement",
+      "customGoal": "Custom Goal",
+      "selectOne": "Select at least one goal",
+      "setLater": "Set later"
+    },
+    "targetAmount": {
+      "title": "Set Target Amount",
+      "subtitle": "How much do you want to save?",
+      "placeholder": "Enter amount",
+      "suggested": "Suggested amount",
+      "minimum": "Minimum amount: {amount}",
+      "maximum": "Maximum amount: {amount}",
+      "currency": "₴",
+      "setGoal": "Set Goal"
+    },
+    "strategy": {
+      "title": "Choose Strategy",
+      "subtitle": "How do you want to reach your goal?",
+      "aggressive": "Aggressive",
+      "aggressiveDesc": "More savings, faster results",
+      "moderate": "Moderate",
+      "moderateDesc": "Balanced approach",
+      "relaxed": "Relaxed",
+      "relaxedDesc": "Small steps, steady progress",
+      "custom": "Custom Strategy",
+      "monthlyTarget": "Monthly target: {amount}",
+      "estimatedTime": "Estimated time: {months} months"
+    },
+    "accountSetup": {
+      "title": "Set Up Your Account",
+      "subtitle": "Last step!",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "password": "Password",
+      "passwordPlaceholder": "Minimum 8 characters",
+      "confirmPassword": "Confirm Password",
+      "terms": "I agree to the Terms of Service",
+      "privacy": "Privacy Policy",
+      "createAccount": "Create Account",
+      "orContinueWith": "or continue with",
+      "google": "Google",
+      "apple": "Apple"
+    },
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Welcome back!",
+      "forgotPassword": "Forgot password?",
+      "resetPassword": "Reset password",
+      "noAccount": "Don't have an account? Sign up"
+    },
+    "forgotPassword": {
+      "title": "Password Recovery",
+      "subtitle": "Enter your email to reset password",
+      "sendLink": "Send Link",
+      "checkEmail": "Check your email",
+      "backToLogin": "Back to sign in"
+    }
+  },
+
+  "home": {
+    "dashboard": {
+      "title": "Home",
+      "greeting": "Hello, {name}!",
+      "greetingMorning": "Good morning, {name}!",
+      "greetingAfternoon": "Good afternoon, {name}!",
+      "greetingEvening": "Good evening, {name}!",
+      "totalSaved": "Total Saved",
+      "thisMonth": "This Month",
+      "monthlyGoal": "Monthly Goal",
+      "progress": "Progress",
+      "streak": "Streak",
+      "level": "Level",
+      "xp": "Experience",
+      "quickActions": "Quick Actions",
+      "recentActivity": "Recent Activity",
+      "activeQuests": "Active Quests",
+      "nextMilestone": "Next Milestone",
+      "daysLeft": "days left"
+    },
+    "empty": {
+      "title": "Start Your Journey!",
+      "description": "Create your first vault and start saving",
+      "createFirstVault": "Create Vault",
+      "completeOnboarding": "Complete Setup",
+      "noVaults": "You don't have any vaults yet",
+      "noQuests": "No active quests",
+      "noActivity": "No activity yet"
+    },
+    "complete": {
+      "title": "Great Progress!",
+      "allGoalsReached": "All goals reached!",
+      "newChallenge": "New Challenge",
+      "keepGoing": "Keep it up!",
+      "motivationMessage": "You're on the right track"
+    }
+  },
+
+  "vault": {
+    "main": {
+      "title": "Vault",
+      "totalBalance": "Total Balance",
+      "available": "Available",
+      "locked": "Locked",
+      "emptyState": "Create your first vault",
+      "createVault": "Create Vault",
+      "vaultName": "Vault Name",
+      "vaultIcon": "Vault Icon",
+      "vaultColor": "Vault Color",
+      "yourVault": "Your Vault",
+      "completedGoals": "Achieved Goals",
+      "reserveFund": "Reserve Fund",
+      "configureReserve": "Configure →",
+      "depositButton": "Deposit",
+      "historyButton": "History"
+    },
+    "history": {
+      "title": "History",
+      "allTransactions": "All Transactions",
+      "deposits": "Deposits",
+      "withdrawals": "Withdrawals",
+      "noHistory": "History is empty",
+      "dateRange": "Date Range",
+      "exportHistory": "Export History",
+      "filterByVault": "Filter by vault",
+      "filterAll": "All",
+      "filterDeposits": "Deposits",
+      "filterWithdrawals": "Withdrawals",
+      "filterBonuses": "Bonuses",
+      "deleteTitle": "Delete Transaction",
+      "deleteMessage": "This action cannot be undone.",
+      "noTransactions": "No Transactions",
+      "noFilteredTransactions": "No transactions with selected filter",
+      "noTransactionsHint": "Make your first deposit to see transactions here",
+      "loadMore": "Load more...",
+      "otherCategory": "Other"
+    },
+    "deposit": {
+      "title": "Deposit",
+      "subtitle": "Add funds to your goal",
+      "amount": "Deposit Amount",
+      "selectVault": "Select Vault",
+      "depositTo": "Deposit to",
+      "quickAmounts": "Quick Amounts",
+      "customAmount": "Custom Amount",
+      "confirmDeposit": "Confirm Deposit",
+      "depositSuccess": "Deposit successful!",
+      "depositFailed": "Deposit failed",
+      "category": "Category",
+      "note": "Note (optional)",
+      "notePlaceholder": "e.g. December bonus",
+      "allocation": "Allocation between goals",
+      "allocationLabel": "Allocation",
+      "goalDefault": "Goal",
+      "xpPreview": "+{{xp}} XP for this deposit",
+      "putButton": "Put ₴{{amount}}",
+      "successMessage": "+{{amount}} ₴ deposited! +{{xp}} XP",
+      "errorMessage": "Deposit error. Try again.",
+      "streakMessage": "Streak {{days}} days! 🔥"
+    },
+    "withdraw": {
+      "title": "Withdraw",
+      "screenTitle": "Withdraw Funds",
+      "warningText": "Withdrawal will reduce your progress!",
+      "amount": "Withdrawal Amount",
+      "selectVault": "Select Vault",
+      "withdrawFrom": "Withdraw from",
+      "availableBalance": "Available Balance",
+      "activeGoal": "Active goal",
+      "insufficientFunds": "Insufficient funds on balance",
+      "reasonLabel": "Withdrawal reason",
+      "reasonEmergency": "🔥 Emergency",
+      "reasonEmergencyDesc": "Urgent need",
+      "reasonPlanned": "📅 Planned",
+      "reasonPlannedDesc": "Planned expense",
+      "reasonOther": "📝 Other",
+      "reasonOtherDesc": "Other reason",
+      "penaltyTitle": "Withdrawal penalties",
+      "penaltyDays": "+{{days}} days to goal",
+      "penaltyXp": "-{{xp}} XP",
+      "confirmTitle": "Confirm Withdrawal",
+      "confirmMessage": "Are you sure? This will reduce your progress!\n\nLoss: -{{xp}} XP + {{days}} days to goal",
+      "cancel": "Cancel",
+      "confirmAction": "Withdraw Funds",
+      "confirmWithdraw": "Confirm Withdrawal",
+      "withdrawSuccess": "Withdrawal successful!",
+      "withdrawFailed": "Withdrawal failed",
+      "penaltyWarning": "Warning: early withdrawal may incur a penalty",
+      "successMessage": "Withdrew {{amount}} ₴. Progress reduced.",
+      "errorMessage": "Withdrawal error. Try again.",
+      "confirmHint": "Tap again to confirm",
+      "confirmButton": "Confirm Withdrawal",
+      "withdrawButton": "Withdraw ₴{{amount}}",
+      "daysShort": "days"
+    },
+    "recurring": {
+      "title": "Recurring Deposits",
+      "frequency": "Frequency",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "biweekly": "×2 per month",
+      "monthly": "Monthly",
+      "custom": "Custom Schedule",
+      "amount": "Amount",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "noEndDate": "No end date",
+      "nextDeposit": "Next Deposit",
+      "active": "Active",
+      "paused": "Paused",
+      "cancelPlan": "Cancel Plan",
+      "pausePlan": "Pause Plan",
+      "resumePlan": "Resume Plan",
+      "automaticDeposit": "Automatic Deposit",
+      "automaticDepositDesc": "Set up regular deposits and reach your goal faster",
+      "dayOfWeek": "Day of week",
+      "calendarPreview": "Calendar (30 days)",
+      "forecast": "Forecast",
+      "depositsPerMonth": "Deposits per month:",
+      "monthlyTotal": "Monthly total:",
+      "years": "1+ years",
+      "monthsShort": "{{count}} mo.",
+      "savePlan": "Save plan",
+      "planSaved": "Plan saved! {{frequency}} — ₴{{amount}}",
+      "depositTime": "Deposit time",
+      "changeTime": "Change →",
+      "perDeposit": "Amount per deposit",
+      "selectTimeAlert": "Choose a convenient time for automatic deposit"
+    },
+    "import": {
+      "title": "Import",
+      "importFunds": "Import Funds",
+      "selectSource": "Select Source",
+      "bankAccount": "Bank Account",
+      "card": "Bank Card",
+      "cash": "Cash",
+      "otherVault": "Other Vault",
+      "amount": "Amount",
+      "note": "Note",
+      "importSuccess": "Import successful",
+      "importFailed": "Import failed",
+      "screenTitle": "Import & Sync",
+      "screenSubtitle": "Connect a bank or import transactions by other methods",
+      "bankIntegration": "Bank Integration",
+      "otherMethods": "Other Methods",
+      "monobankDesc": "Automatic transaction import from Mono",
+      "privatbankDesc": "Sync with Privat24",
+      "recommended": "Recommended",
+      "receiptTitle": "Receipt Photo",
+      "receiptDesc": "Take a receipt photo — we'll recognize the amount automatically",
+      "csvTitle": "CSV Import",
+      "csvDesc": "Import transactions from CSV file (Excel, Google Sheets)",
+      "batchTitle": "Add in Batch",
+      "batchDesc": "Manually add multiple transactions at once",
+      "connectBank": "Connecting Bank",
+      "connectQuestion": "Connect {{bank}} for automatic transaction import?",
+      "connected": "Connected",
+      "connectBtn": "Connect",
+      "disconnectBtn": "Disconnect",
+      "bankConnected": "{{bank}} connected!",
+      "bankDisconnected": "Bank disconnected",
+      "receiptSource": "Choose photo source",
+      "camera": "Camera",
+      "gallery": "Gallery",
+      "receiptAnalyzing": "Receipt received! Analyzing...",
+      "cameraError": "Camera access error",
+      "csvSelected": "CSV file selected! Importing...",
+      "csvError": "File read error",
+      "batchAlert": "Batch Entry",
+      "batchAlertMsg": "Manual batch entry. This feature will be available in the next update.",
+      "securityTitle": "Data Security",
+      "securityDesc": "All data is stored locally on your device. We do not share banking data with third parties."
+    },
+    "create": {
+      "title": "New Vault",
+      "name": "Name",
+      "namePlaceholder": "Name your vault",
+      "goal": "Goal",
+      "targetAmount": "Target Amount",
+      "deadline": "Deadline",
+      "icon": "Icon",
+      "color": "Color",
+      "type": "Type",
+      "typeStandard": "Standard",
+      "typeChallenge": "Challenge",
+      "typeShared": "Shared",
+      "create": "Create"
+    }
+  },
+
+  "quests": {
+    "hub": {
+      "title": "Quests",
+      "subtitle": "Complete tasks and earn rewards",
+      "available": "Available",
+      "active": "Active",
+      "completed": "Completed",
+      "expired": "Expired",
+      "noQuests": "No quests"
+    },
+    "daily": {
+      "title": "Daily Quests",
+      "subtitle": "New quests every day",
+      "resetsIn": "Resets in",
+      "completed": "Completed {count}/{total}",
+      "claimReward": "Claim Reward",
+      "rewardClaimed": "Reward claimed!",
+      "streakBonus": "Streak bonus: x{multiplier}"
+    },
+    "weekly": {
+      "title": "Weekly Quests",
+      "subtitle": "Bigger tasks, bigger rewards",
+      "progress": "Progress: {current}/{total}",
+      "daysLeft": "{days} days left",
+      "weekNumber": "Week {number}",
+      "claimAll": "Claim All Rewards"
+    },
+    "story": {
+      "title": "Story Quests",
+      "subtitle": "Follow the storyline",
+      "chapter": "Chapter {number}",
+      "currentChapter": "Current Chapter",
+      "locked": "Locked",
+      "unlockNext": "Unlock Next",
+      "storyComplete": "Story Complete!",
+      "totalChapters": "Chapter {current} of {total}"
+    },
+    "achievements": {
+      "title": "Achievements",
+      "subtitle": "Your trophies and rewards",
+      "total": "Total: {count}",
+      "unlocked": "Unlocked: {count}",
+      "locked": "Locked: {count}",
+      "rarity": {
+        "common": "Common",
+        "rare": "Rare",
+        "epic": "Epic",
+        "legendary": "Legendary"
+      },
+      "newAchievement": "New Achievement!",
+      "achievementUnlocked": "Achievement Unlocked!"
+    },
+    "levelUp": {
+      "title": "Level Up!",
+      "congratulations": "Congratulations!",
+      "newLevel": "You reached level {level}!",
+      "rewardsUnlocked": "New features unlocked",
+      "xpToNext": "To next level: {xp} XP",
+      "currentLevel": "Current Level",
+      "nextLevel": "Next Level"
+    },
+    "streak": {
+      "title": "Streak",
+      "currentStreak": "Current Streak",
+      "bestStreak": "Best Streak",
+      "days": "days",
+      "keepStreak": "Don't break your streak!",
+      "streakBonus": "Streak bonus: +{percent}%",
+      "streakLost": "Streak lost",
+      "streakRecovered": "Streak recovered!"
+    },
+    "wheel": {
+      "title": "Wheel of Fortune",
+      "subtitle": "Spin and win!",
+      "spin": "Spin!",
+      "spinning": "Spinning...",
+      "spinsLeft": "Spins left: {count}",
+      "nextFreeSpin": "Free spin in",
+      "prize": "Your prize: {prize}",
+      "jackpot": "JACKPOT!",
+      "tryAgain": "Try Again"
+    },
+    "shop": {
+      "title": "Shop",
+      "subtitle": "Exchange coins for rewards",
+      "coins": "Coins",
+      "yourBalance": "Your Balance",
+      "categories": "Categories",
+      "powerups": "Power-ups",
+      "cosmetics": "Cosmetics",
+      "premium": "Premium",
+      "buy": "Buy",
+      "soldOut": "Sold Out",
+      "notEnoughCoins": "Not enough coins",
+      "purchased": "Purchased!"
+    },
+    "leaderboard": {
+      "title": "Leaderboard",
+      "subtitle": "Compare yourself with others",
+      "you": "You",
+      "rank": "Rank",
+      "name": "Name",
+      "score": "Score",
+      "level": "Level",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "allTime": "All Time",
+      "topSavers": "Top Savers",
+      "topStreaks": "Top Streaks"
+    },
+    "challenges": {
+      "title": "Challenges",
+      "subtitle": "Accept a challenge and win",
+      "accept": "Accept Challenge",
+      "decline": "Decline",
+      "activeChallenges": "Active Challenges",
+      "challengeProgress": "Challenge Progress",
+      "timeLeft": "Time Left",
+      "reward": "Reward",
+      "challengeComplete": "Challenge Complete!",
+      "challengeFailed": "Challenge Failed"
+    },
+    "xp": {
+      "earned": "+{amount} XP",
+      "bonus": "Bonus: +{amount} XP",
+      "totalXp": "Total XP",
+      "levelProgress": "Level Progress",
+      "xpBreakdown": "XP Breakdown"
+    }
+  },
+
+  "stats": {
+    "dashboard": {
+      "title": "Statistics",
+      "subtitle": "Your financial metrics",
+      "overview": "Overview",
+      "detailed": "Detailed",
+      "period": "Period",
+      "compare": "Comparison"
+    },
+    "charts": {
+      "title": "Charts",
+      "incomeVsExpenses": "Income vs Expenses",
+      "savingsRate": "Savings Rate",
+      "savingsTrend": "Savings Trend",
+      "categoryBreakdown": "Category Breakdown",
+      "monthlyComparison": "Monthly Comparison",
+      "weeklyTrend": "Weekly Trend",
+      "dailyActivity": "Daily Activity",
+      "projection": "Projection",
+      "pieChart": "Pie Chart",
+      "barChart": "Bar Chart",
+      "lineChart": "Line Chart"
+    },
+    "patterns": {
+      "title": "Patterns",
+      "subtitle": "Your financial habits",
+      "spendingHabits": "Spending Habits",
+      "savingPatterns": "Saving Patterns",
+      "bestDay": "Best Day",
+      "worstDay": "Worst Day",
+      "peakHours": "Peak Hours",
+      "topCategories": "Top Categories",
+      "insights": "Insights",
+      "tip": "Tip"
+    },
+    "forecast": {
+      "title": "Forecast",
+      "subtitle": "What's ahead",
+      "projectedSavings": "Projected Savings",
+      "goalCompletion": "Goal Completion",
+      "estimatedDate": "Estimated Date",
+      "atCurrentRate": "At current rate",
+      "withGoal": "With goal pace",
+      "onTrack": "On track",
+      "behindSchedule": "Behind schedule",
+      "aheadOfSchedule": "Ahead of schedule"
+    },
+    "report": {
+      "title": "Reports",
+      "subtitle": "Detailed financial reports",
+      "generate": "Generate Report",
+      "weeklyReport": "Weekly Report",
+      "monthlyReport": "Monthly Report",
+      "yearlyReport": "Yearly Report",
+      "customReport": "Custom Report",
+      "downloading": "Downloading...",
+      "ready": "Report ready"
+    },
+    "comparison": {
+      "title": "Comparison",
+      "subtitle": "Compare periods",
+      "vsPreviousMonth": "vs previous month",
+      "vsPreviousYear": "vs previous year",
+      "change": "Change",
+      "increase": "Increase",
+      "decrease": "Decrease",
+      "noChange": "No change"
+    },
+    "calculator": {
+      "title": "Calculator",
+      "subtitle": "Calculate your path to your goal",
+      "targetAmount": "Target Amount",
+      "monthlySaving": "Monthly Saving",
+      "timeToGoal": "Time to Goal",
+      "interestRate": "Interest Rate",
+      "compoundFrequency": "Compound Frequency",
+      "calculate": "Calculate",
+      "result": "Result",
+      "needToSave": "You need to save",
+      "perMonth": "per month",
+      "perWeek": "per week",
+      "perDay": "per day"
+    },
+    "export": {
+      "title": "Export",
+      "subtitle": "Download your data",
+      "format": "Format",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "json": "JSON",
+      "dateRange": "Date Range",
+      "exportData": "Export Data",
+      "exporting": "Exporting...",
+      "exportSuccess": "Export successful",
+      "exportFailed": "Export failed",
+      "csvDesc": "Transactions in spreadsheet",
+      "pdfDesc": "PDF Report",
+      "jsonDesc": "All data as JSON",
+      "quarter": "Quarter",
+      "summary": "Export Summary",
+      "pdfComingSoon": "PDF export coming soon",
+      "transactionCount": "Transactions",
+      "categories": "Categories",
+      "includeCategories": "Include categories",
+      "savings": "Savings",
+      "expenses": "Expenses",
+      "quests": "Quests",
+      "goals": "Goals",
+      "achievements": "Achievements",
+      "selected": "selected"
+    },
+    "aiCoach": {
+      "title": "AI Coach",
+      "weeklyReport": "Weekly Report",
+      "thinking": "AI is thinking...",
+      "whatWentWell": "What went well",
+      "adviceTitle": "AI Coach Advice",
+      "weeklyChallenge": "Weekly Challenge",
+      "accept": "Accept",
+      "skip": "Skip",
+      "accepted": "Accepted!",
+      "skipped": "Skipped",
+      "newReport": "🔄 New report",
+      "streakWin": "Streak {{count}} days!",
+      "weeklySavingsWin": "+{{amount}} this week — {{percent}}% more",
+      "questsWin": "{{completed}}/{{total}} quests completed",
+      "challengeTemplate": "Save {{amount}} by Sunday → +{{xp}} XP bonus",
+      "noData": "Not enough data for analysis",
+      "errorFallback": "Advice temporarily unavailable. Try again later!"
+    }
+  },
+
+  "profile": {
+    "main": {
+      "title": "Profile",
+      "editProfile": "Edit Profile",
+      "memberSince": "Member since",
+      "totalSaved": "Total Saved",
+      "currentStreak": "Current Streak",
+      "achievementsCount": "Achievements",
+      "level": "Level",
+      "signIn": "Sign In",
+      "novice": "Beginner",
+      "levelBadge": "Level",
+      "xp": "XP",
+      "goalsStat": "Goals",
+      "streak": "Streak",
+      "achievementsStat": "Achievements",
+      "logout": "Log Out"
+    },
+    "edit": {
+      "title": "Edit Profile",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "avatar": "Avatar",
+      "changeAvatar": "Change Avatar",
+      "saveChanges": "Save Changes",
+      "discardChanges": "Discard Changes",
+      "changePhoto": "Change Photo",
+      "nickname": "Nickname",
+      "nicknamePlaceholder": "Your nickname",
+      "errorEmpty": "Name cannot be empty",
+      "errorMin": "Name must be at least 2 characters",
+      "errorMax": "Name cannot exceed 20 characters",
+      "accentColor": "Accent Color",
+      "preview": "Preview",
+      "defaultName": "User"
+    },
+    "settings": {
+      "title": "Settings",
+      "general": "General",
+      "language": "Language",
+      "theme": "Theme",
+      "darkMode": "Dark",
+      "lightMode": "Light",
+      "systemMode": "System Theme",
+      "currency": "Currency",
+      "currencyUah": "Hryvnia",
+      "currencyUsd": "US Dollar",
+      "currencyEur": "Euro",
+      "notifications": "Notifications",
+      "security": "Security",
+      "biometric": "Biometric Authentication",
+      "biometricLock": "Biometric Lock",
+      "biometricLockDesc": "Face ID / Fingerprint",
+      "pinCode": "PIN Code",
+      "changePassword": "Change Password",
+      "twoFactor": "Two-Factor Authentication",
+      "data": "Data",
+      "backup": "Backup",
+      "restore": "Restore",
+      "clearData": "Clear Data",
+      "clearDataWarning": "This will delete all your data",
+      "about": "About",
+      "rateApp": "⭐ Rate App",
+      "help": "Help",
+      "logout": "Log Out",
+      "deleteAccount": "Delete Account",
+      "deleteAccountWarning": "This action is irreversible",
+      "haptic": "Haptic Feedback",
+      "hapticDesc": "Vibration on tap"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "push": "Push Notifications",
+      "email": "Email Notifications",
+      "questReminders": "Quest Reminders",
+      "streakAlerts": "Streak Alerts",
+      "depositReminders": "Deposit Reminders",
+      "weeklyReports": "Weekly Reports",
+      "monthlyReports": "Monthly Reports",
+      "achievementAlerts": "Achievement Alerts",
+      "marketing": "Marketing Messages",
+      "quietHours": "Quiet Hours",
+      "quietHoursStart": "Start",
+      "quietHoursEnd": "End",
+      "channels": "Notification Channels",
+      "channelQuests": "Quests",
+      "channelQuestsDesc": "New and completed quests",
+      "channelAchievements": "Achievements",
+      "channelAchievementsDesc": "Unlocked achievements",
+      "channelReminders": "Reminders",
+      "channelRemindersDesc": "Daily reminders",
+      "channelSocial": "Social",
+      "channelSocialDesc": "Challenges and friend requests",
+      "channelStreak": "Streak",
+      "channelStreakDesc": "Streak alerts",
+      "streakWarningSection": "Streak Alerts",
+      "remindBefore": "Remind before:",
+      "streakWarningDesc": "You'll get a notification {{hours}} hours before losing your streak",
+      "enableQuietHours": "Enable quiet hours",
+      "quietHoursDesc": "No notifications during selected time",
+      "quietFrom": "From (hr):",
+      "quietTo": "To (hr):",
+      "saveSettings": "Save Settings",
+      "justNow": "just now",
+      "minutesAgo": "{{count}} min ago",
+      "hoursAgo": "{{count}} hr ago",
+      "daysAgo": "{{count}} d ago",
+      "metaDeposit": "Deposit",
+      "metaWithdrawal": "Withdrawal",
+      "metaAchievement": "Achievement",
+      "metaStreak": "Streak reminder",
+      "metaXp": "XP earned",
+      "metaSystem": "System notification",
+      "depositConfirmed": "Deposit confirmed",
+      "withdrawalConfirmed": "Withdrawal confirmed",
+      "transactionDesc": "{{type}} {{amount}} ₴ • XP +{{xp}}",
+      "scheduled": "Scheduled",
+      "thisWeek": "This week"
+    },
+    "goals": {
+      "title": "My Goals",
+      "active": "Active",
+      "completed": "Completed",
+      "archived": "Archived",
+      "paused": "Paused",
+      "addGoal": "Add Goal",
+      "addNewGoal": "+ Add New Goal",
+      "editGoal": "Edit Goal",
+      "deleteGoal": "Delete Goal",
+      "goalProgress": "Goal Progress",
+      "noGoals": "No goals",
+      "noActiveGoals": "No active goals",
+      "noCompletedGoals": "No completed goals",
+      "noPausedGoals": "No paused goals",
+      "activeCount": "Active",
+      "completedCount": "Completed",
+      "total": "Total",
+      "emptyDesc": "Create a new savings goal"
+    },
+    "about": {
+      "title": "About",
+      "description": "SaveState is a gamified savings app that helps you achieve financial goals through gamification.",
+      "version": "Version {version}",
+      "build": "Build {build}",
+      "developers": "Developers",
+      "contact": "Contact Us",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "openSource": "Open Source Licenses",
+      "versionInfo": "Version 1.0.0",
+      "tagline": "Gamified Savings",
+      "creditsText": "SaveState is developed by a team of enthusiasts who believe in financial education through gamification.",
+      "faq": "FAQ",
+      "contacts": "Contacts & Support",
+      "footer": "Made with ❤️ in Ukraine",
+      "faq0q": "How does the level system work?",
+      "faq0a": "You earn XP for every transaction and quest completion. XP accumulates and when you reach a threshold you level up. Each level unlocks new features and rewards.",
+      "faq1q": "What is a streak?",
+      "faq1a": "A streak is the number of consecutive days you've been active in the app. A long streak gives bonus XP and unlocks special achievements. Don't break your streak!",
+      "faq2q": "How to use a streak freeze?",
+      "faq2a": "You can get a streak freeze from completing quests or the bonus wheel. Use it to preserve your streak for one day if you missed a day.",
+      "faq3q": "How to create a challenge with a friend?",
+      "faq3a": "Go to \"Challenges\" and tap \"Create\". Choose a friend, goal and duration. Your friend will receive a challenge request.",
+      "faq4q": "Is SaveState free?",
+      "faq4a": "Yes, SaveState is completely free. All features are available without subscription. The app is funded through optional ads and XP shop purchases.",
+      "faq5q": "How to export my data?",
+      "faq5a": "Go to \"Statistics\" → \"Export\". Choose a format (CSV, PDF or JSON), period and categories. Data will be saved or shared via the share sheet."
+    },
+    "help": {
+      "title": "Help",
+      "faqTitle": "FAQ",
+      "faq0q": "How to start saving?",
+      "faq0a": "Open the home screen and tap \"Add savings\". Enter the amount, category and description. Your savings automatically count toward your goal, and you earn XP for each transaction.",
+      "faq1q": "How to change the target amount?",
+      "faq1a": "Go to \"Goals\" → select a goal → tap \"Edit\". Enter a new amount and confirm. Savings history is preserved, progress is recalculated automatically.",
+      "faq2q": "What is XP and levels?",
+      "faq2a": "XP (experience) are points you earn for actions in the app: savings, completing quests, streaks. Accumulating XP raises your level. Each level unlocks new features and bonuses.",
+      "faq3q": "How do quests work?",
+      "faq3a": "Quests are daily, weekly and special tasks. Daily quests refresh each morning, weekly quests every Monday. Completing quests earns you XP, coins and unique rewards.",
+      "faq4q": "How to invite a friend?",
+      "faq4a": "Go to \"Profile\" → \"Invite a friend\". Share the link via messenger. When your friend registers and makes their first savings, you both get bonus XP.",
+      "faq5q": "How to connect a bank?",
+      "faq5a": "In \"Settings\" choose \"Connect bank\". Select your bank from the list, authorize via the banking app. Supports MonoBank, PrivatBank, A-Bank and other Ukrainian banks.",
+      "faq6q": "How to export data?",
+      "faq6a": "Go to \"Statistics\" → \"Export\". Choose format: CSV, PDF or JSON. Specify period and categories. Data will be saved on the device or shared via the share sheet.",
+      "tutorial": "Tutorial",
+      "tutorialDesc": "Go through onboarding again to refresh your knowledge of the app's core features.",
+      "restartOnboarding": "🔄 Restart Onboarding",
+      "contactUs": "Contact Us",
+      "contactDesc": "Have a question or issue? Our support team will respond within 24 hours.",
+      "inAppChat": "💬 In-App Chat",
+      "updates": "Updates",
+      "changelog": "Changelog v2.1",
+      "viewChangelog": "View changelog"
+    },
+    "widget": {
+      "title": "Homescreen Widget",
+      "sizeSmall": "Small",
+      "sizeMedium": "Medium",
+      "sizeLarge": "Large",
+      "freqHourly": "Hourly",
+      "freqOnOpen": "On open",
+      "freqLive": "Live",
+      "step1": "Long-press the homescreen",
+      "step2": "Select \"Widgets\"",
+      "step3": "Find SaveState",
+      "step4": "Choose size and add",
+      "selectSize": "Select widget size:",
+      "instruction": "Instructions:",
+      "frequency": "Update frequency:",
+      "addWidget": "Add Widget",
+      "previewGoal": "Goal",
+      "previewSavings": "Savings",
+      "goalTarget": "Goal: {{amount}}",
+      "days": "days",
+      "streak": "Streak",
+      "achievements": "Achievements"
+    },
+    "reminder": {
+      "title": "Daily Reminder",
+      "enable": "Enable reminder",
+      "time": "Reminder time",
+      "daysOfWeek": "Days of week",
+      "messageType": "Message type",
+      "typeMotivational": "Motivational",
+      "typeQuest": "Quest reminder",
+      "typeStats": "Daily stats",
+      "preview": "Notification preview",
+      "previewMotivational": "Time to save a little more! 💪 Every hryvnia is XP toward your next level.",
+      "previewQuest": "New daily quest! ⚔️ Complete it and earn bonus coins.",
+      "previewStats": "Your progress today 📊 Saved: 250₴ | XP: +120 | Streak: 7 days 🔥",
+      "streakPreview": "🔥 Streak: 7 days",
+      "now": "now",
+      "save": "Save Reminder"
+    },
+    "privacy": {
+      "title": "Data & Privacy",
+      "exportData": "📤 Export Data",
+      "pdfReport": "PDF Report",
+      "pdfReportDesc": "All transactions + statistics",
+      "csvExport": "CSV Export",
+      "csvExportDesc": "Transactions in table format",
+      "export": "Export",
+      "exporting": "⏳ Generating",
+      "clearTransactions": "⚠️ Clear Transactions",
+      "clearTransactionsWarning": "Are you sure? All transactions will be permanently deleted.",
+      "dataCleared": "All transactions successfully deleted",
+      "dangerZone": "🛡️ Danger Zone",
+      "irreversibleWarning": "⚡ These actions are irreversible. Be careful.",
+      "legalInfo": "📜 Legal Information",
+      "noNotifications": "No notifications",
+      "noNotificationsDesc": "All notifications are read. New ones will appear here automatically.",
+      "markAllRead": "Read all",
+      "updating": "Updating...",
+      "deleteNotification": "Delete notification",
+      "deleteNotificationWarning": "This notification will be permanently deleted.",
+      "longPressHint": "Long press — delete notification",
+      "referral": {
+        "title": "Referral Program",
+        "heroText": "Invite a friend — get a reward!",
+        "promoCode": "Your promo code",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "share": "Share",
+        "scanToJoin": "Scan to join",
+        "rewardTiers": "Referral Rewards",
+        "invitedFriends": "Invited Friends",
+        "inviteFriend": "🚀 Invite Friend",
+        "friend": "friend",
+        "friends": "friends",
+        "received": "Received",
+        "accepted": "Accepted",
+        "pending": "Pending",
+        "invited": "Invited",
+        "comingSoon": "🚧 Referral program coming soon!",
+        "comingSoonDesc": "We're working on the friend invitation system. Stay tuned — soon you'll be able to invite friends and earn bonuses!",
+        "inviteAlert": "Send an invitation or copy the promo code!"
+      }
+    }
+  },
+
+  "debt": {
+    "main": {
+      "title": "Debts",
+      "subtitle": "Track and pay off debts",
+      "totalDebt": "Total Debt",
+      "totalPaid": "Total Paid",
+      "remaining": "Remaining",
+      "addDebt": "Add Debt",
+      "noDebts": "You have no debts",
+      "debtFree": "You're debt free! Great job!"
+    },
+    "add": {
+      "title": "Add Debt",
+      "creditor": "Creditor",
+      "creditorPlaceholder": "Creditor name",
+      "amount": "Debt Amount",
+      "interestRate": "Interest Rate",
+      "minimumPayment": "Minimum Payment",
+      "dueDate": "Due Date",
+      "type": "Type",
+      "typeCredit": "Credit Card",
+      "typeLoan": "Loan",
+      "typeMortgage": "Mortgage",
+      "typePersonal": "Personal Debt",
+      "typeOther": "Other",
+      "notes": "Notes",
+      "add": "Add Debt",
+      "addAnother": "Add Another"
+    },
+    "edit": {
+      "title": "Edit Debt",
+      "update": "Update Debt",
+      "markPaid": "Mark as Paid",
+      "archive": "Archive"
+    },
+    "payment": {
+      "title": "Payment",
+      "makePayment": "Make Payment",
+      "amount": "Payment Amount",
+      "date": "Payment Date",
+      "method": "Payment Method",
+      "confirm": "Confirm Payment",
+      "paymentSuccess": "Payment successful",
+      "paymentFailed": "Payment failed",
+      "nextPayment": "Next Payment",
+      "paymentHistory": "Payment History",
+      "noPayments": "No payments",
+      "remainingPayments": "Remaining Payments",
+      "estimatedPayoff": "Estimated Payoff"
+    }
+  },
+
+  "money": {
+    "wallet": {
+      "title": "Wallet",
+      "totalBalance": "Total Balance",
+      "accounts": "Accounts",
+      "addAccount": "Add Account",
+      "cash": "Cash",
+      "bankCards": "Bank Cards",
+      "noAccounts": "No accounts"
+    },
+    "expense": {
+      "title": "Expenses",
+      "addExpense": "Add Expense",
+      "amount": "Amount",
+      "category": "Category",
+      "note": "Note",
+      "date": "Date",
+      "account": "Account",
+      "recent": "Recent Expenses",
+      "todayExpenses": "Today's Expenses",
+      "thisMonthExpenses": "This Month's Expenses"
+    },
+    "budget": {
+      "title": "Budget",
+      "monthlyBudget": "Monthly Budget",
+      "setBudget": "Set Budget",
+      "categoryBudget": "Category Budget",
+      "remaining": "Remaining",
+      "spent": "Spent",
+      "overBudget": "Over Budget",
+      "underBudget": "Under Budget",
+      "budgetAlert": "Budget Alert",
+      "resetBudget": "Reset Budget"
+    },
+    "bills": {
+      "title": "Bills",
+      "addBill": "Add Bill",
+      "upcoming": "Upcoming",
+      "overdue": "Overdue",
+      "paid": "Paid",
+      "totalBills": "Total Bills",
+      "noBills": "No bills",
+      "markPaid": "Mark as Paid",
+      "recurringBills": "Recurring Bills"
+    },
+    "loans": {
+      "title": "Loans",
+      "activeLoans": "Active Loans",
+      "addLoan": "Add Loan",
+      "totalBorrowed": "Total Borrowed",
+      "totalLent": "Total Lent",
+      "borrowed": "Borrowed",
+      "lent": "Lent to Others"
+    },
+    "subscriptions": {
+      "title": "Subscriptions",
+      "active": "Active",
+      "addSubscription": "Add Subscription",
+      "monthlyCost": "Monthly Cost",
+      "nextPayment": "Next Payment",
+      "totalSubscriptions": "Total Subscriptions",
+      "cancelSubscription": "Cancel Subscription",
+      "noSubscriptions": "No subscriptions"
+    },
+    "split": {
+      "title": "Split Expenses",
+      "newSplit": "New Split",
+      "participants": "Participants",
+      "addParticipant": "Add Participant",
+      "totalAmount": "Total Amount",
+      "yourShare": "Your Share",
+      "settleUp": "Settle Up",
+      "youOwe": "You Owe",
+      "owedToYou": "Owed to You"
+    },
+    "income": {
+      "title": "Income",
+      "addIncome": "Add Income",
+      "source": "Source",
+      "amount": "Amount",
+      "frequency": "Frequency",
+      "oneTime": "One-time",
+      "recurring": "Recurring",
+      "thisMonth": "This Month",
+      "thisYear": "This Year"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "overview": "Overview",
+      "trends": "Trends",
+      "insights": "Insights",
+      "spendingByCategory": "Spending by Category",
+      "incomeVsExpenses": "Income vs Expenses",
+      "savingsRate": "Savings Rate",
+      "netWorth": "Net Worth"
+    },
+    "estimator": {
+      "title": "Estimator",
+      "subtitle": "Estimate your financial capabilities",
+      "estimate": "Estimate",
+      "result": "Result"
+    },
+    "emergency": {
+      "title": "Emergency Fund",
+      "target": "Target",
+      "current": "Current",
+      "progress": "Progress",
+      "monthsCovered": "Months Covered",
+      "recommended": "Recommended: {months} months",
+      "addFunds": "Add Funds"
+    },
+    "calculator": {
+      "title": "Calculator",
+      "basic": "Basic",
+      "advanced": "Advanced",
+      "loanCalc": "Loan Calculator",
+      "savingsCalc": "Savings Calculator",
+      "currencyConverter": "Currency Converter"
+    },
+    "cashback": {
+      "title": "Cashback",
+      "totalCashback": "Total Cashback",
+      "available": "Available",
+      "pending": "Pending",
+      "withdraw": "Withdraw",
+      "history": "Cashback History"
+    },
+    "deposits": {
+      "title": "Deposits",
+      "activeDeposits": "Active Deposits",
+      "addDeposit": "Add Deposit",
+      "interestRate": "Interest Rate",
+      "maturityDate": "Maturity Date",
+      "totalReturns": "Total Returns"
+    },
+    "categories": {
+      "title": "Categories",
+      "addCategory": "Add Category",
+      "editCategory": "Edit Category",
+      "icon": "Icon",
+      "color": "Color",
+      "budget": "Budget",
+      "transactions": "Transactions"
+    },
+    "transfers": {
+      "title": "Transfers",
+      "newTransfer": "New Transfer",
+      "from": "From",
+      "to": "To",
+      "amount": "Amount",
+      "note": "Note",
+      "recentTransfers": "Recent Transfers"
+    },
+    "summary": {
+      "title": "Summary",
+      "monthly": "Monthly",
+      "weekly": "Weekly",
+      "yearly": "Yearly",
+      "income": "Income",
+      "expenses": "Expenses",
+      "savings": "Savings",
+      "net": "Net Result"
+    },
+    "currency": {
+      "title": "Currencies",
+      "baseCurrency": "Base Currency",
+      "addCurrency": "Add Currency",
+      "exchangeRate": "Exchange Rate",
+      "lastUpdated": "Updated"
+    },
+    "dreams": {
+      "title": "Dreams",
+      "addDream": "Add Dream",
+      "myDreams": "My Dreams",
+      "funded": "Funded",
+      "progress": "Funding Progress",
+      "noDreams": "Add your first dream"
+    },
+    "trip": {
+      "title": "Trip",
+      "planTrip": "Plan Trip",
+      "budget": "Trip Budget",
+      "saved": "Saved",
+      "remaining": "Remaining",
+      "destinations": "Destinations",
+      "itinerary": "Itinerary",
+      "expenses": "Trip Expenses"
+    },
+    "templates": {
+      "title": "Templates",
+      "budgetTemplates": "Budget Templates",
+      "savingsTemplates": "Savings Templates",
+      "useTemplate": "Use Template",
+      "createTemplate": "Create Template"
+    },
+    "reports": {
+      "title": "Reports",
+      "generateReport": "Generate Report",
+      "shareReport": "Share Report",
+      "downloadReport": "Download Report"
+    },
+    "notes": {
+      "title": "Notes",
+      "addNote": "Add Note",
+      "editNote": "Edit Note",
+      "deleteNote": "Delete Note",
+      "noNotes": "No notes"
+    },
+    "reminders": {
+      "title": "Reminders",
+      "addReminder": "Add Reminder",
+      "active": "Active",
+      "completed": "Completed",
+      "noReminders": "No reminders"
+    }
+  },
+
+  "achievements": {
+    "firstDeposit": {
+      "title": "First Deposit",
+      "description": "Make your first deposit into a vault"
+    },
+    "saver1000": {
+      "title": "Thousand Saver",
+      "description": "Save 1,000 UAH"
+    },
+    "saver10000": {
+      "title": "Ten Thousand Saver",
+      "description": "Save 10,000 UAH"
+    },
+    "saver50000": {
+      "title": "Fifty Thousand Saver",
+      "description": "Save 50,000 UAH"
+    },
+    "saver100000": {
+      "title": "Savings Master",
+      "description": "Save 100,000 UAH"
+    },
+    "saver500000": {
+      "title": "Savings Legend",
+      "description": "Save 500,000 UAH"
+    },
+    "streak3": {
+      "title": "Three Days in a Row",
+      "description": "Reach a 3-day streak"
+    },
+    "streak7": {
+      "title": "Weekly Streak",
+      "description": "Reach a 7-day streak"
+    },
+    "streak14": {
+      "title": "Biweekly Streak",
+      "description": "Reach a 14-day streak"
+    },
+    "streak30": {
+      "title": "Monthly Streak",
+      "description": "Reach a 30-day streak"
+    },
+    "streak90": {
+      "title": "Quarterly Streak",
+      "description": "Reach a 90-day streak"
+    },
+    "streak365": {
+      "title": "Yearly Streak",
+      "description": "Reach a 365-day streak"
+    },
+    "questFirst": {
+      "title": "First Quest",
+      "description": "Complete your first quest"
+    },
+    "quest10": {
+      "title": "Quest Hunter",
+      "description": "Complete 10 quests"
+    },
+    "quest50": {
+      "title": "Quest Master",
+      "description": "Complete 50 quests"
+    },
+    "quest100": {
+      "title": "Quest Legend",
+      "description": "Complete 100 quests"
+    },
+    "dailyComplete": {
+      "title": "Daily Hero",
+      "description": "Complete all daily quests in one day"
+    },
+    "weeklyComplete": {
+      "title": "Weekly Champion",
+      "description": "Complete all weekly quests"
+    },
+    "level5": {
+      "title": "Newcomer",
+      "description": "Reach level 5"
+    },
+    "level10": {
+      "title": "Apprentice",
+      "description": "Reach level 10"
+    },
+    "level20": {
+      "title": "Fighter",
+      "description": "Reach level 20"
+    },
+    "level30": {
+      "title": "Veteran",
+      "description": "Reach level 30"
+    },
+    "level40": {
+      "title": "Expert",
+      "description": "Reach level 40"
+    },
+    "level50": {
+      "title": "Master",
+      "description": "Reach the maximum level"
+    },
+    "budgetMaster": {
+      "title": "Budget Master",
+      "description": "Stay within budget for 30 days in a row"
+    },
+    "debtFree": {
+      "title": "Debt Free",
+      "description": "Pay off all your debts"
+    },
+    "goalComplete": {
+      "title": "Goal Achiever",
+      "description": "Achieve your financial goal"
+    },
+    "multipleGoals": {
+      "title": "Multi-Goal",
+      "description": "Achieve 3 financial goals"
+    },
+    "earlyBird": {
+      "title": "Early Bird",
+      "description": "Make a deposit before 8:00 AM"
+    },
+    "nightOwl": {
+      "title": "Night Owl",
+      "description": "Make a deposit after 10:00 PM"
+    },
+    "socialStar": {
+      "title": "Community Star",
+      "description": "Reach top 10 on the leaderboard"
+    },
+    "wheelLucky": {
+      "title": "Lucky One",
+      "description": "Win the jackpot on the wheel"
+    },
+    "noSpendDay": {
+      "title": "No-Spend Day",
+      "description": "Go a day without any expenses"
+    },
+    "noSpendWeek": {
+      "title": "No-Spend Week",
+      "description": "Go 7 days without any expenses"
+    },
+    "reporter": {
+      "title": "Reporter",
+      "description": "Generate 10 reports"
+    },
+    "mentor": {
+      "title": "Mentor",
+      "description": "Help 5 users"
+    }
+  },
+
+  "quests_content": {
+    "daily": {
+      "firstStep": {
+        "title": "First Step",
+        "description": "Make a deposit into any vault"
+      },
+      "expenseTracker": {
+        "title": "Expense Tracker",
+        "description": "Log all expenses for today"
+      },
+      "noSpend": {
+        "title": "Savings Day",
+        "description": "Avoid unnecessary spending today"
+      },
+      "roundUp": {
+        "title": "Round Up",
+        "description": "Transfer the change from 3 transactions to your vault"
+      },
+      "knowledgeGain": {
+        "title": "Financial Literacy",
+        "description": "Read the tip of the day"
+      },
+      "budgetCheck": {
+        "title": "Budget Check",
+        "description": "Check your budget for today"
+      },
+      "reviewGoals": {
+        "title": "Goal Review",
+        "description": "Review the progress of your goals"
+      },
+      "addExpense": {
+        "title": "Expense Logging",
+        "description": "Add at least 3 expenses"
+      },
+      "streakMaintain": {
+        "title": "Streak Maintenance",
+        "description": "Make a deposit to maintain your streak"
+      },
+      "socialShare": {
+        "title": "Motivator",
+        "description": "Share your achievement"
+      }
+    },
+    "weekly": {
+      "bigSaver": {
+        "title": "Big Saver",
+        "description": "Save {amount} UAH more than last week"
+      },
+      "budgetHero": {
+        "title": "Budget Hero",
+        "description": "Stay within budget all 7 days"
+      },
+      "debtDestroyer": {
+        "title": "Debt Destroyer",
+        "description": "Make an extra debt payment"
+      },
+      "categoryMaster": {
+        "title": "Category Master",
+        "description": "Log expenses in all categories"
+      },
+      "weekStreak": {
+        "title": "Weekly Streak",
+        "description": "Maintain a 7-day saving streak"
+      },
+      "questCollector": {
+        "title": "Quest Collector",
+        "description": "Complete 5 daily quests in a week"
+      },
+      "financialCheckup": {
+        "title": "Financial Checkup",
+        "description": "Review all your financial metrics"
+      },
+      "savingsChallenge": {
+        "title": "Savings Challenge",
+        "description": "Save an increasing amount every day for a week"
+      }
+    },
+    "story": {
+      "chapter1": {
+        "title": "Beginning of the Journey",
+        "description": "Create your first vault and make your first deposit"
+      },
+      "chapter2": {
+        "title": "First Habits",
+        "description": "Form a daily saving habit"
+      },
+      "chapter3": {
+        "title": "Budget Warrior",
+        "description": "Learn to manage your budget"
+      },
+      "chapter4": {
+        "title": "Debt Hunter",
+        "description": "Start tracking and paying off debts"
+      },
+      "chapter5": {
+        "title": "Investment Mind",
+        "description": "Learn the basics of investing"
+      },
+      "chapter6": {
+        "title": "Goal Master",
+        "description": "Achieve your first financial goal"
+      },
+      "chapter7": {
+        "title": "Team Player",
+        "description": "Create a shared vault with friends"
+      },
+      "chapter8": {
+        "title": "Financial Freedom",
+        "description": "Create a plan to achieve financial freedom"
+      },
+      "chapter9": {
+        "title": "Savings Legend",
+        "description": "Reach the maximum level"
+      },
+      "chapter10": {
+        "title": "New Era",
+        "description": "Complete all story quests and become a legend"
+      }
+    }
+  },
+
+  "levels": {
+    "1": "Beginner",
+    "2": "Apprentice",
+    "3": "Student",
+    "4": "Trainee",
+    "5": "Junior Financier",
+    "6": "Financial Advisor",
+    "7": "Budgeter",
+    "8": "Economist",
+    "9": "Treasurer",
+    "10": "Coin Collector",
+    "11": "Gold Digger",
+    "12": "Trader",
+    "13": "Investor",
+    "14": "Banker",
+    "15": "Asset Manager",
+    "16": "Financial Strategist",
+    "17": "Analyst",
+    "18": "Planner",
+    "19": "Executor",
+    "20": "Savings Fighter",
+    "21": "Budget Defender",
+    "22": "Debt Hunter",
+    "23": "Coin Master",
+    "24": "Treasure Hunter",
+    "25": "Wealth Keeper",
+    "26": "Investment Strategist",
+    "27": "Financial Warrior",
+    "28": "Savings Commander",
+    "29": "Plan Architect",
+    "30": "Finance Veteran",
+    "31": "Savings Expert",
+    "32": "Budget Master",
+    "33": "Grandmaster",
+    "34": "Elite Collector",
+    "35": "Premium Advisor",
+    "36": "Master of Finance",
+    "37": "Visionary",
+    "38": "Wealth Architect",
+    "39": "Financial Guru",
+    "40": "Finance Legend",
+    "41": "Savings Champion",
+    "42": "Budget Superhero",
+    "43": "Investment Titan",
+    "44": "Treasure Lord",
+    "45": "Financial Freedom Master",
+    "46": "Savings Emperor",
+    "47": "Crown of Wealth",
+    "48": "Demigod of Finance",
+    "49": "God of Savings",
+    "50": "SaveState Legend"
+  },
+
+  "notifications": {
+    "streak": {
+      "atRisk": "Your {days}-day streak is at risk! Make a deposit to save it.",
+      "maintained": "Great! You maintained your {days}-day streak! Keep going!",
+      "broken": "Your {days}-day streak has been lost. Don't give up, start a new one!",
+      "milestone": "Congratulations! You reached a {days}-day streak! Bonus: +{xp} XP!",
+      "weekStreak": "Weekly streak! 7 days in a row! Bonus: +{xp} XP!",
+      "monthStreak": "Monthly streak! 30 days in a row! You're amazing!"
+    },
+    "quests": {
+      "newDaily": "New daily quests available! Complete them for rewards.",
+      "newWeekly": "New weekly quests! Big rewards await.",
+      "expiringSoon": "Quest \"{name}\" expires in {hours} hours!",
+      "completed": "Quest \"{name}\" completed! Reward: +{xp} XP",
+      "failed": "Quest \"{name}\" failed. Try again next time.",
+      "storyUnlock": "New chapter unlocked: {chapter}!",
+      "challengeAvailable": "New challenge available: \"{name}\""
+    },
+    "achievements": {
+      "unlocked": "New achievement: \"{name}\"! {description}",
+      "rareUnlocked": "Rare achievement: \"{name}\"! Well done!",
+      "legendaryUnlocked": "LEGENDARY achievement: \"{name}\"! You're incredible!",
+      "closeToUnlock": "You're close to unlocking \"{name}\"! {percent}% remaining"
+    },
+    "vault": {
+      "depositSuccess": "Deposit of {amount} UAH successful.",
+      "withdrawSuccess": "Withdrawal of {amount} UAH successful.",
+      "goalReached": "Goal \"{name}\" reached! Congratulations!",
+      "recurringDeposit": "Recurring deposit of {amount} UAH completed.",
+      "recurringFailed": "Recurring deposit failed. Check your balance."
+    },
+    "budget": {
+      "warning": "Warning! You've spent {percent}% of your budget.",
+      "exceeded": "Budget exceeded by {amount} UAH.",
+      "categoryWarning": "Category \"{name}\" budget almost exhausted."
+    },
+    "debt": {
+      "paymentDue": "Debt payment for \"{name}\" due in {days} days.",
+      "paymentOverdue": "Debt payment for \"{name}\" is overdue!",
+      "debtPaid": "Debt \"{name}\" fully paid off! Congratulations!"
+    },
+    "social": {
+      "leaderboardUpdate": "You moved up to rank {rank} on the leaderboard!",
+      "friendJoined": "Your friend {name} joined SaveState!",
+      "challengeInvite": "{name} invited you to a challenge: \"{challenge}\""
+    },
+    "system": {
+      "appUpdate": "New SaveState version ({version}) available.",
+      "maintenance": "Scheduled maintenance on {date}. Your data will be preserved.",
+      "backupComplete": "Backup completed successfully.",
+      "newFeature": "New feature: {feature}! Try it now."
+    }
+  },
+
+  "errors": {
+    "network": {
+      "noConnection": "No internet connection",
+      "timeout": "Request timed out",
+      "serverDown": "Server unavailable",
+      "slowConnection": "Slow connection",
+      "tryAgain": "Check your connection and try again"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Invalid email format",
+      "invalidPhone": "Invalid phone format",
+      "passwordTooShort": "Password is too short",
+      "passwordNoMatch": "Passwords don't match",
+      "invalidAmount": "Invalid amount",
+      "amountTooSmall": "Amount is too small",
+      "amountTooLarge": "Amount is too large",
+      "invalidDate": "Invalid date",
+      "dateInPast": "Date is in the past",
+      "nameTooShort": "Name is too short",
+      "invalidFormat": "Invalid format"
+    },
+    "sync": {
+      "failed": "Sync failed",
+      "conflict": "Data conflict",
+      "dataOutdated": "Data is outdated",
+      "retrySync": "Retry sync",
+      "lastSyncFailed": "Last sync failed"
+    },
+    "auth": {
+      "invalidCredentials": "Invalid email or password",
+      "accountExists": "Account already exists",
+      "accountNotFound": "Account not found",
+      "sessionExpired": "Session expired. Please sign in again.",
+      "tooManyAttempts": "Too many attempts. Try again later.",
+      "emailNotVerified": "Email not verified",
+      "passwordResetExpired": "Password reset link expired",
+      "unauthorized": "Unauthorized access"
+    },
+    "vault": {
+      "insufficientFunds": "Insufficient funds",
+      "vaultNotFound": "Vault not found",
+      "depositFailed": "Deposit failed",
+      "withdrawFailed": "Withdrawal failed",
+      "cannotDelete": "Cannot delete vault with funds",
+      "vaultLimit": "Vault limit reached",
+      "nameExists": "Vault with this name already exists"
+    },
+    "payment": {
+      "failed": "Payment failed",
+      "insufficientBalance": "Insufficient balance",
+      "cardDeclined": "Card declined",
+      "transactionFailed": "Transaction failed"
+    },
+    "general": {
+      "unknownError": "Unknown error",
+      "somethingWentWrong": "Something went wrong",
+      "tryLater": "Try again later",
+      "contactSupport": "Contact support",
+      "reportBug": "Report a bug"
+    }
+  },
+
+  "categories": {
+    "food": "Food & Drinks",
+    "transport": "Transport",
+    "housing": "Housing",
+    "utilities": "Utilities",
+    "health": "Health",
+    "entertainment": "Entertainment",
+    "shopping": "Shopping",
+    "education": "Education",
+    "travel": "Travel",
+    "beauty": "Beauty",
+    "sports": "Sports",
+    "subscriptions": "Subscriptions",
+    "gifts": "Gifts",
+    "clothing": "Clothing",
+    "electronics": "Electronics",
+    "pets": "Pets",
+    "insurance": "Insurance",
+    "savings": "Savings",
+    "investments": "Investments",
+    "income": "Income",
+    "salary": "Salary",
+    "freelance": "Freelance",
+    "business": "Business",
+    "rental": "Rental",
+    "dividends": "Dividends",
+    "other": "Other",
+    "cafe": "Cafes & Restaurants",
+    "groceries": "Groceries",
+    "fuel": "Fuel",
+    "parking": "Parking",
+    "taxi": "Taxi",
+    "pharmacy": "Pharmacy",
+    "doctor": "Doctor",
+    "gym": "Gym",
+    "cinema": "Cinema",
+    "concerts": "Concerts",
+    "books": "Books",
+    "courses": "Courses",
+    "internet": "Internet",
+    "phone": "Phone",
+    "repairs": "Repairs",
+    "children": "Children"
+  },
+
+  "gamification": {
+    "xpEarned": "+{amount} XP earned",
+    "xpBonus": "XP Bonus: +{amount}",
+    "xpFromDeposit": "XP from deposit",
+    "xpFromQuest": "XP from quest",
+    "xpFromAchievement": "XP from achievement",
+    "xpFromStreak": "XP from streak",
+    "levelUpMessage": "Level Up! Level {level}",
+    "newLevelUnlocked": "New level unlocked!",
+    "levelRewards": "Level {level} rewards",
+    "coinsEarned": "+{amount} coins earned",
+    "coinsSpent": "{amount} coins spent",
+    "streakMessage": "{days}-day streak!",
+    "streakBonusMessage": "Streak bonus: x{multiplier}",
+    "streakMaintained": "Streak maintained!",
+    "streakBroken": "Streak lost 😢",
+    "achievementPop": "New achievement!",
+    "questComplete": "Quest completed!",
+    "challengeComplete": "Challenge completed!",
+    "wheelSpin": "Wheel spin!",
+    "dailyReward": "Daily reward",
+    "weeklyReward": "Weekly reward",
+    "bonusMultiplier": "Bonus multiplier: x{multiplier}",
+    "comboMessage": "Combo x{count}! {remaining} more to bonus!",
+    "powerUpActivated": "Power-up activated!",
+    "shieldActive": "Streak shield activated!",
+    "doubleXpActive": "Double XP activated!",
+    "luckyCharmActive": "Lucky charm activated!",
+    "rankUp": "Rank up!",
+    "rankDown": "Rank down",
+    "topRank": "You're in the top 10!",
+    "personalBest": "Personal best!"
+  }
+}

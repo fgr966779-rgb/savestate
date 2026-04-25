@@ -1,0 +1,149 @@
+{
+  "expo": {
+    "name": "SaveState",
+    "slug": "savestate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6C3FE2"
+    },
+    "assetBundlePatterns": [
+      "assets/**/*",
+      "lottie/**/*"
+    ],
+    "scheme": "savestate",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.savestate.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "SaveState needs camera access to scan receipts and verify savings goals.",
+        "NSPhotoLibraryUsageDescription": "SaveState needs photo library access to attach images to your savings goals.",
+        "NSFaceIDUsageDescription": "SaveState uses Face ID to securely authenticate your account.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "associatedDomains": ["applinks:savestate.app"]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6C3FE2"
+      },
+      "package": "com.savestate.app",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "POST_NOTIFICATIONS",
+        "SCHEDULE_EXACT_ALARM"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "savestate.app",
+              "pathPrefix": "/"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "root": "./app"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#6C3FE2",
+          "dark": {
+            "backgroundColor": "#1A1035"
+          },
+          "image": "./assets/splash.png",
+          "imageWidth": 300,
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#6C3FE2",
+          "android": {
+            "channelId": "savestate-savings"
+          }
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "SaveState uses Face ID to securely authenticate your account."
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SaveState needs camera access to scan receipts and verify savings goals.",
+          "microphonePermission": false,
+          "recordAudioPermission": false
+        }
+      ],
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      "expo-font",
+      "expo-asset",
+      "expo-secure-store",
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id"
+      },
+      "supabaseUrl": "https://jzwwjschmcyjzrwsvzma.supabase.co",
+      "sentryDsn": "",
+      "posthogApiKey": "phc_urYareDAHgbzhPLoeCqKjBcZCHHUfapMuaVLSQaPEgtr",
+      "apiBaseUrl": "https://api.savestate.app",
+      "environment": "production"
+    },
+    "locales": {
+      "uk": "./src/locales/uk.json",
+      "en": "./src/locales/en.json"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "runtimeVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "cli": {
+    "version": ">= 14.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development",
+      "android": {
+        "buildType": "apk",
+        "minSdkVersion": 33,
+        "targetSdkVersion": 34,
+        "compileSdkVersion": 34,
+        "gradleCommand": ":app:assembleDebug",
+        "environment": {
+          "ANDROID_HOME": "/usr/local/share/android-commandlinetools"
+        }
+      },
+      "ios": {
+        "simulator": true,
+        "resourceClass": "m-medium"
+      },
+      "env": {
+        "EXPO_PUBLIC_ENVIRONMENT": "development",
+        "EXPO_PUBLIC_API_URL": "https://dev-api.SaveState.app",
+        "EXPO_PUBLIC_SENTRY_DSN": "",
+        "EXPO_PUBLIC_POSTHOG_KEY": "",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://your-dev-project.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "your-dev-anon-key"
+      },
+      "cache": {
+        "paths": [
+          "node_modules",
+          "~/.cache/yarn"
+        ]
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview",
+      "android": {
+        "buildType": "app-bundle",
+        "minSdkVersion": 33,
+        "targetSdkVersion": 34,
+        "compileSdkVersion": 34,
+        "gradleCommand": ":app:assembleRelease",
+        "resourceClass": "m-medium"
+      },
+      "ios": {
+        "resourceClass": "m-medium",
+        "simulator": false
+      },
+      "env": {
+        "EXPO_PUBLIC_ENVIRONMENT": "staging",
+        "EXPO_PUBLIC_API_URL": "https://staging-api.SaveState.app",
+        "EXPO_PUBLIC_SENTRY_DSN": "https://your-staging-sentry-dsn@sentry.io/project-id",
+        "EXPO_PUBLIC_POSTHOG_KEY": "phc_your_staging_posthog_key",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://your-staging-project.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "your-staging-anon-key"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "android": {
+        "buildType": "app-bundle",
+        "minSdkVersion": 33,
+        "targetSdkVersion": 34,
+        "compileSdkVersion": 34,
+        "gradleCommand": ":app:bundleRelease",
+        "resourceClass": "m-large",
+        "signingConfig": "production"
+      },
+      "ios": {
+        "resourceClass": "m-large",
+        "simulator": false,
+        "enterpriseProvisioning": "universal"
+      },
+      "env": {
+        "EXPO_PUBLIC_ENVIRONMENT": "production",
+        "EXPO_PUBLIC_API_URL": "https://api.SaveState.app",
+        "EXPO_PUBLIC_SENTRY_DSN": "https://your-production-sentry-dsn@sentry.io/project-id",
+        "EXPO_PUBLIC_POSTHOG_KEY": "phc_your_production_posthog_key",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://your-production-project.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "your-production-anon-key"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "track": "production",
+        "releaseStatus": "inProgress",
+        "serviceAccountKeyPath": "./service-account-key.json"
+      },
+      "ios": {
+        "appleId": "your-apple-id@example.com",
+        "ascAppId": "your-app-store-connect-app-id",
+        "appleTeamId": "YOUR_TEAM_ID"
+      }
+    }
+  }
+}
