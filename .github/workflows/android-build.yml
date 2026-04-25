@@ -44,11 +44,11 @@ jobs:
       run: |
         cd gamevault/android
         chmod +x gradlew
-        # Ограничиваем количество потоков компиляции, чтобы не вылетало по памяти
+        # Используем NDK 27 и ограничиваем потоки для стабильности
         if [ "${{ github.event.inputs.build_type }}" == "release" ]; then
-          ./gradlew assembleRelease -PndkVersion=26.1.10909125 --no-daemon --max-workers 2
+          ./gradlew assembleRelease -PndkVersion=27.0.12077973 --no-daemon --max-workers 2
         else
-          ./gradlew assembleDebug -PndkVersion=26.1.10909125 --no-daemon --max-workers 2
+          ./gradlew assembleDebug -PndkVersion=27.0.12077973 --no-daemon --max-workers 2
         fi
       env:
         GRADLE_OPTS: -Dorg.gradle.jvmargs="-Xmx4g -XX:MaxMetaspaceSize=512m"
