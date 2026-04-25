@@ -27,6 +27,7 @@ jobs:
       with:
         node-version: '20'
         cache: 'npm'
+        cache-dependency-path: gamevault/package-lock.json # <-- ОБЯЗАТЕЛЬНО
         
     - name: Setup Java 17
       uses: actions/setup-java@v4
@@ -35,11 +36,13 @@ jobs:
         java-version: '17'
         
     - name: Install dependencies
-      run: npm ci --legacy-peer-deps
+      run: |
+        cd gamevault                                       # <-- ОБЯЗАТЕЛЬНО
+        npm ci --legacy-peer-deps
       
     - name: Build Android APK
       run: |
-        cd gamevault/android
+        cd gamevault/android                               # <-- ОБЯЗАТЕЛЬНО
         chmod +x gradlew
         if [ "${{ github.event.inputs.build_type }}" == "release" ]; then
           ./gradlew assembleRelease -PndkVersion=26.1.10909125
