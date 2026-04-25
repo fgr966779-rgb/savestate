@@ -40,6 +40,44 @@ jobs:
         cd gamevault
         npm ci --legacy-peer-deps
 
+    - name: Patch CMake for C++20 (React Native 0.81+ New Architecture)
+      run: |
+        echo "=== Patching CMake files to use C++20 ==="
+        # Patch ReactNative-application.cmake
+        RNAPP_CMAKE="gamevault/node_modules/react-native/ReactAndroid/cmake-utils/ReactNative-application.cmake"
+        if [ -f "$RNAPP_CMAKE" ]; then
+          sed -i 's/set(CMAKE_CXX_STANDARD [0-9][0-9]*)/set(CMAKE_CXX_STANDARD 20)/g' "$RNAPP_CMAKE"
+          echo "Patched: $RNAPP_CMAKE"
+          grep "CMAKE_CXX_STANDARD" "$RNAPP_CMAKE" || echo "(no CXX_STANDARD found - will add)"
+          # If no standard set, prepend it
+          if ! grep -q "CMAKE_CXX_STANDARD" "$RNAPP_CMAKE"; then
+            sed -i '1i set(CMAKE_CXX_STANDARD 20)\nset(CMAKE_CXX_STANDARD_REQUIRED ON)\n' "$RNAPP_CMAKE"
+            echo "Added CMAKE_CXX_STANDARD 20 to $RNAPP_CMAKE"
+          fi
+        else
+          echo "WARNING: $RNAPP_CMAKE not found"
+        fi
+        
+        # Patch all other cmake files in react-native that set CXX_STANDARD
+        find gamevault/node_modules/react-native -name "*.cmake" -exec grep -l "CMAKE_CXX_STANDARD" {} \; | while read f; do
+          sed -i 's/set(CMAKE_CXX_STANDARD [0-9][0-9]*)/set(CMAKE_CXX_STANDARD 20)/g' "$f"
+          echo "Patched: $f"
+        done
+        
+        # Patch react-native-mmkv cmake if it exists
+        MMKV_CMAKE="gamevault/node_modules/react-native-mmkv/android/CMakeLists.txt"
+        if [ -f "$MMKV_CMAKE" ]; then
+          if ! grep -q "CMAKE_CXX_STANDARD" "$MMKV_CMAKE"; then
+            sed -i '1i set(CMAKE_CXX_STANDARD 20)\nset(CMAKE_CXX_STANDARD_REQUIRED ON)\n' "$MMKV_CMAKE"
+            echo "Added C++20 to: $MMKV_CMAKE"
+          else
+            sed -i 's/set(CMAKE_CXX_STANDARD [0-9][0-9]*)/set(CMAKE_CXX_STANDARD 20)/g' "$MMKV_CMAKE"
+            echo "Updated C++20 in: $MMKV_CMAKE"
+          fi
+        fi
+        
+        echo "=== CMake patching complete ==="
+
     - name: Build Android APK
       run: |
         cd gamevault/android
@@ -51,7 +89,6 @@ jobs:
         fi
       env:
         GRADLE_OPTS: -Dorg.gradle.jvmargs="-Xmx4g -XX:MaxMetaspaceSize=512m"
-        CXXFLAGS: "-std=c++20"
         EXPO_PUBLIC_SUPABASE_URL: ${{ secrets.EXPO_PUBLIC_SUPABASE_URL }}
         EXPO_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.EXPO_PUBLIC_SUPABASE_ANON_KEY }}
         EXPO_PUBLIC_POSTHOG_KEY: ${{ secrets.EXPO_PUBLIC_POSTHOG_KEY }}
